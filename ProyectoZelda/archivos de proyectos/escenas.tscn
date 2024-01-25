@@ -1,4 +1,0 @@
-[gd_scene format=3 uid="uid://bt3g8silejdo5"]
-
-[node name="CharacterBody2D" type="CharacterBody2D"]
-position = Vector2(-557, -269)
