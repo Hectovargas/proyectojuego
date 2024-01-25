@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_EDITOR_Godot|x64'">
+    <LocalDebuggerCommand>C:\Users\ARIEL\Documents\Visual Studio proyectos\GDExtensionVS\External_Programs\Godot_Editor\Godot_v4.2-stable_win64.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>.\Godot_proyect</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_GAME_Godot|x64'">
+    <LocalDebuggerCommand>C:\Users\ARIEL\Documents\Visual Studio proyectos\GDExtensionVS\External_Programs\Godot_Editor\Godot_v4.2-stable_win64.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>.\Godot_proyect</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_EDITOR_Godot|x64'">
+    <LocalDebuggerCommand>$(ProjectDir)External_Programs\Godot_Editor\Godot_v4.2.1-stable_win64.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)Godot_proyect</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>--editor</LocalDebuggerCommandArguments>
+    <LocalDebuggerAttach>false</LocalDebuggerAttach>
+    <LocalDebuggerDebuggerType>Auto</LocalDebuggerDebuggerType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_GAME_Godot|x64'">
+    <LocalDebuggerCommand>$(ProjectDir)External_Programs\Godot_Editor\Godot_v4.2.1-stable_win64.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)Godot_proyect</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>
+    </LocalDebuggerCommandArguments>
+    <LocalDebuggerAttach>false</LocalDebuggerAttach>
+    <LocalDebuggerDebuggerType>Auto</LocalDebuggerDebuggerType>
+  </PropertyGroup>
+</Project>
