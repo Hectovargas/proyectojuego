@@ -9,6 +9,7 @@ func save_user(name, password):
 	print("quiero guardar: " , datajason)
 	file.store_line(datajason)
 	print("guardado exitoso")
+	
 func load_users():
 	var load_datas : Dictionary
 	var file =FileAccess.open("res://save_game.save",FileAccess.READ)

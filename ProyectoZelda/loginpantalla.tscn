@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://drv5c6dwtd501"]
+[gd_scene load_steps=20 format=3 uid="uid://drv5c6dwtd501"]
 
 [ext_resource type="Script" path="res://Control.gd" id="1_v8t81"]
 [ext_resource type="Texture2D" uid="uid://bx2atkp2s4sjt" path="res://fondoopaco.png" id="2_w76ps"]
@@ -41,6 +41,14 @@ font_size = 64
 font_color = Color(0.0196078, 0.0196078, 0, 1)
 outline_size = 23
 outline_color = Color(0.184314, 0.494118, 1, 1)
+
+[sub_resource type="SystemFont" id="SystemFont_0dgqy"]
+font_names = PackedStringArray("Arial")
+
+[sub_resource type="LabelSettings" id="LabelSettings_d3ixs"]
+font = SubResource("SystemFont_0dgqy")
+font_size = 30
+font_color = Color(0.831373, 0, 0, 1)
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -133,6 +141,14 @@ offset_bottom = 644.0
 texture_normal = ExtResource("9_oxut2")
 texture_pressed = ExtResource("10_bau4t")
 texture_hover = ExtResource("11_rdnih")
+
+[node name="Label4" type="Label" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 430.0
+offset_top = 525.0
+offset_right = 765.0
+offset_bottom = 571.0
+label_settings = SubResource("LabelSettings_d3ixs")
 
 [connection signal="pressed" from="NinePatchRect/TextureButton" to="." method="_on_texture_button_pressed"]
 [connection signal="pressed" from="NinePatchRect/TextureButton2" to="." method="_on_texture_button_2_pressed"]

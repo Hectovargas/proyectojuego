@@ -25,4 +25,6 @@ func _on_texture_button_pressed():
 	if( currentpassword==contraseña && currentuser == nombre):
 		get_tree().change_scene_to_file("res://zona Inical.tscn") 
 	else:
-		print("Te equivocaste XDDDDD")
+		var Line_Edit = $NinePatchRect.get_node("Label4")
+		Line_Edit.set_text("Cuenta No encontrada")
+		
