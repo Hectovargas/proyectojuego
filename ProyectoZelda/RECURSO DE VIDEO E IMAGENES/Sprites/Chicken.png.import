@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bsvoykdf7oi36"
-path="res://.godot/imported/Chicken.png-7ccffaf26a931bdb2578f2a6334648d6.ctex"
+path="res://.godot/imported/Chicken.png-c29559938a64f9f4bc4857ecceb330c4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Chicken.png"
-dest_files=["res://.godot/imported/Chicken.png-7ccffaf26a931bdb2578f2a6334648d6.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Sprites/Chicken.png"
+dest_files=["res://.godot/imported/Chicken.png-c29559938a64f9f4bc4857ecceb330c4.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dev3bk6kj6015"
-path="res://.godot/imported/SNES - The Legend of Zelda A Link to the Past - Aginahs Cave-2.png-6ae525ec39f79acf50901e121b1657da.ctex"
+path="res://.godot/imported/SNES - The Legend of Zelda A Link to the Past - Aginahs Cave-2.png-fd293f2cf3e89e4893d32a8ca49f597b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/WorldTilesets/SNES - The Legend of Zelda A Link to the Past - Aginahs Cave-2.png"
-dest_files=["res://.godot/imported/SNES - The Legend of Zelda A Link to the Past - Aginahs Cave-2.png-6ae525ec39f79acf50901e121b1657da.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Sprites/WorldTilesets/SNES - The Legend of Zelda A Link to the Past - Aginahs Cave-2.png"
+dest_files=["res://.godot/imported/SNES - The Legend of Zelda A Link to the Past - Aginahs Cave-2.png-fd293f2cf3e89e4893d32a8ca49f597b.ctex"]
 
 [params]
 

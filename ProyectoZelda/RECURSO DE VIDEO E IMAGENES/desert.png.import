@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhawlluex4jkf"
-path="res://.godot/imported/desert.png-18dda9594316743b52861f12000f4c02.ctex"
+path="res://.godot/imported/desert.png-ed752b42cdba56b02a5f476d83b2c277.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gfx/desert.png"
-dest_files=["res://.godot/imported/desert.png-18dda9594316743b52861f12000f4c02.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/desert.png"
+dest_files=["res://.godot/imported/desert.png-ed752b42cdba56b02a5f476d83b2c277.ctex"]
 
 [params]
 

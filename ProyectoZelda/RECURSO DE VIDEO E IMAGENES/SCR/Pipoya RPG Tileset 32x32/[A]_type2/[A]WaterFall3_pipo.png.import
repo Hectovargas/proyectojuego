@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgtxc6xiagkwn"
-path="res://.godot/imported/[A]WaterFall3_pipo.png-c41681f22cd183bac7f1b8ebf344ca8a.ctex"
+path="res://.godot/imported/[A]WaterFall3_pipo.png-25191405abd7a12c870f03d4cf9edece.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SCR/Pipoya RPG Tileset 32x32/[A]_type2/[A]WaterFall3_pipo.png"
-dest_files=["res://.godot/imported/[A]WaterFall3_pipo.png-c41681f22cd183bac7f1b8ebf344ca8a.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/SCR/Pipoya RPG Tileset 32x32/[A]_type2/[A]WaterFall3_pipo.png"
+dest_files=["res://.godot/imported/[A]WaterFall3_pipo.png-25191405abd7a12c870f03d4cf9edece.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nkx1o5rludpo"
-path="res://.godot/imported/campfire_16x16.png-aa86020196aa1d813f07c204452742ee.ctex"
+path="res://.godot/imported/campfire_16x16.png-021f7ac1c236e18b4b0938f4b8a82023.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SCR2/SERENE_VILLAGE_REVAMPED/Animated stuff/campfire_16x16.png"
-dest_files=["res://.godot/imported/campfire_16x16.png-aa86020196aa1d813f07c204452742ee.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/SCR2/SERENE_VILLAGE_REVAMPED/Animated stuff/campfire_16x16.png"
+dest_files=["res://.godot/imported/campfire_16x16.png-021f7ac1c236e18b4b0938f4b8a82023.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dewq6hsjr0ijf"
-path="res://.godot/imported/Door1_pipo.png-b894e2506d845bb1ca10c1176db2817a.ctex"
+path="res://.godot/imported/Door1_pipo.png-b1f87fa6719b940643340e572c4a32fe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SCR/Door_Animation/Door1_pipo.png"
-dest_files=["res://.godot/imported/Door1_pipo.png-b894e2506d845bb1ca10c1176db2817a.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/SCR/Door_Animation/Door1_pipo.png"
+dest_files=["res://.godot/imported/Door1_pipo.png-b1f87fa6719b940643340e572c4a32fe.ctex"]
 
 [params]
 

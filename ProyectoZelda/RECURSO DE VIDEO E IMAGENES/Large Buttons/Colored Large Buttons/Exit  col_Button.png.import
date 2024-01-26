@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4fvck6td33hv"
-path="res://.godot/imported/Exit  col_Button.png-1a77fb051ce7ec678e4fc4cb377dcb59.ctex"
+path="res://.godot/imported/Exit  col_Button.png-30b5f5461037245cf220eed86d77b3e0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Large Buttons/Colored Large Buttons/Exit  col_Button.png"
-dest_files=["res://.godot/imported/Exit  col_Button.png-1a77fb051ce7ec678e4fc4cb377dcb59.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Large Buttons/Colored Large Buttons/Exit  col_Button.png"
+dest_files=["res://.godot/imported/Exit  col_Button.png-30b5f5461037245cf220eed86d77b3e0.ctex"]
 
 [params]
 

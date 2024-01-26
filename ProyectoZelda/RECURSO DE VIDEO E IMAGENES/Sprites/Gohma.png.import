@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4l0g4dnfkyqv"
-path="res://.godot/imported/Gohma.png-717be7eb05e54cae7fbdc1b182074a80.ctex"
+path="res://.godot/imported/Gohma.png-4e581d01f56265d995e2733bd2819302.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Gohma.png"
-dest_files=["res://.godot/imported/Gohma.png-717be7eb05e54cae7fbdc1b182074a80.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Sprites/Gohma.png"
+dest_files=["res://.godot/imported/Gohma.png-4e581d01f56265d995e2733bd2819302.ctex"]
 
 [params]
 

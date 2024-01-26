@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctbceqdmqhiyo"
-path="res://.godot/imported/Phantom Ganon.png-107ffba648dd61dd357689e0cd5b4928.ctex"
+path="res://.godot/imported/Phantom Ganon.png-1ec95adc84fecc761958a9bfe0416016.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Phantom Ganon.png"
-dest_files=["res://.godot/imported/Phantom Ganon.png-107ffba648dd61dd357689e0cd5b4928.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Sprites/Phantom Ganon.png"
+dest_files=["res://.godot/imported/Phantom Ganon.png-1ec95adc84fecc761958a9bfe0416016.ctex"]
 
 [params]
 

@@ -3,7 +3,6 @@
 #include "VSTestGDnative.h"
 #include "CuboExample.h"
 #include "GDExample.h"
-#include "botonRegistro.h"
 
 #include <gdextension_interface.h>
 #include <godot_cpp/core/defs.hpp>
@@ -19,7 +18,6 @@ void initialize_example_module(ModuleInitializationLevel p_level) {
 	ClassDB::register_class<VSTestGDnative>();
 	ClassDB::register_class<CuboExample>();
 	ClassDB::register_class<GDExample>();
-
 }
 
 void uninitialize_example_module(ModuleInitializationLevel p_level) {

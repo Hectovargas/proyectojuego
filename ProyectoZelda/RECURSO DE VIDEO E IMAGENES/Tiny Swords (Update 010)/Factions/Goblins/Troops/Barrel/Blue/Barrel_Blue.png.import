@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bn5h47eevrknt"
-path="res://.godot/imported/Barrel_Blue.png-b75038f1deff18746941595962302316.ctex"
+path="res://.godot/imported/Barrel_Blue.png-21383a7729229f1f233327ee39aa3cfd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Blue/Barrel_Blue.png"
-dest_files=["res://.godot/imported/Barrel_Blue.png-b75038f1deff18746941595962302316.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Blue/Barrel_Blue.png"
+dest_files=["res://.godot/imported/Barrel_Blue.png-21383a7729229f1f233327ee39aa3cfd.ctex"]
 
 [params]
 

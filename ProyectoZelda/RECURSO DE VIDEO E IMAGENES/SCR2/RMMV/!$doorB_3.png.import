@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b84d1uc1iogqa"
-path="res://.godot/imported/!$doorB_3.png-1f588b242bd4e26017944d233184d667.ctex"
+path="res://.godot/imported/!$doorB_3.png-7b23848b1970cc0747c2785465605dad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SCR2/RMMV/!$doorB_3.png"
-dest_files=["res://.godot/imported/!$doorB_3.png-1f588b242bd4e26017944d233184d667.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/SCR2/RMMV/!$doorB_3.png"
+dest_files=["res://.godot/imported/!$doorB_3.png-7b23848b1970cc0747c2785465605dad.ctex"]
 
 [params]
 

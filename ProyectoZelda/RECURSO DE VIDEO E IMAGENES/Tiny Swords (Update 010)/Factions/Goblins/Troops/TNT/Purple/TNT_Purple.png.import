@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmr0nkfu5ujr0"
-path="res://.godot/imported/TNT_Purple.png-8053dd4b2a33a8734d0ac6a6942800fe.ctex"
+path="res://.godot/imported/TNT_Purple.png-9de098f8f3b7ec7dd774cf52bbabaf25.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Purple/TNT_Purple.png"
-dest_files=["res://.godot/imported/TNT_Purple.png-8053dd4b2a33a8734d0ac6a6942800fe.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Purple/TNT_Purple.png"
+dest_files=["res://.godot/imported/TNT_Purple.png-9de098f8f3b7ec7dd774cf52bbabaf25.ctex"]
 
 [params]
 

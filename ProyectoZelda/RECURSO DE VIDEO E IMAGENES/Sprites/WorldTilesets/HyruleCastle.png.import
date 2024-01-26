@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfwcnfvtxqn0a"
-path="res://.godot/imported/HyruleCastle.png-a07711ad04aeb2331030d67ab0033fe0.ctex"
+path="res://.godot/imported/HyruleCastle.png-0f70828a2abb2a99eff826df58a49f00.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/WorldTilesets/HyruleCastle.png"
-dest_files=["res://.godot/imported/HyruleCastle.png-a07711ad04aeb2331030d67ab0033fe0.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Sprites/WorldTilesets/HyruleCastle.png"
+dest_files=["res://.godot/imported/HyruleCastle.png-0f70828a2abb2a99eff826df58a49f00.ctex"]
 
 [params]
 

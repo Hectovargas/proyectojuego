@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1rtquf5un68x"
-path="res://.godot/imported/New Game  col_Button.png-769c71b8f2a3ff54acc6e36bdc481e8f.ctex"
+path="res://.godot/imported/New Game  col_Button.png-59880b1a218e94569707d7481c4098a6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Large Buttons/Colored Large Buttons/New Game  col_Button.png"
-dest_files=["res://.godot/imported/New Game  col_Button.png-769c71b8f2a3ff54acc6e36bdc481e8f.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Large Buttons/Colored Large Buttons/New Game  col_Button.png"
+dest_files=["res://.godot/imported/New Game  col_Button.png-59880b1a218e94569707d7481c4098a6.ctex"]
 
 [params]
 

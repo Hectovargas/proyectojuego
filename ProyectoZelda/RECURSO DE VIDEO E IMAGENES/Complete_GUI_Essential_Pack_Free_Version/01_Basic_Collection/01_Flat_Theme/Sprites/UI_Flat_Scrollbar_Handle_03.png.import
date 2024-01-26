@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfjiqhwyiq2ah"
-path="res://.godot/imported/UI_Flat_Scrollbar_Handle_03.png-b74e1488fa5cbd4207b1957bda2a052f.ctex"
+path="res://.godot/imported/UI_Flat_Scrollbar_Handle_03.png-47421c946d6154ad6d282b278c8c2fbc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Scrollbar_Handle_03.png"
-dest_files=["res://.godot/imported/UI_Flat_Scrollbar_Handle_03.png-b74e1488fa5cbd4207b1957bda2a052f.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Scrollbar_Handle_03.png"
+dest_files=["res://.godot/imported/UI_Flat_Scrollbar_Handle_03.png-47421c946d6154ad6d282b278c8c2fbc.ctex"]
 
 [params]
 

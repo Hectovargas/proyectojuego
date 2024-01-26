@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1k4uycxq5nb7"
-path="res://.godot/imported/Menu Button.png-ff511125b088c769ddef376ee3cf5059.ctex"
+path="res://.godot/imported/Menu Button.png-072dc9f24329d68c8b92597b207e03d2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Large Buttons/Large Buttons/Menu Button.png"
-dest_files=["res://.godot/imported/Menu Button.png-ff511125b088c769ddef376ee3cf5059.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Large Buttons/Large Buttons/Menu Button.png"
+dest_files=["res://.godot/imported/Menu Button.png-072dc9f24329d68c8b92597b207e03d2.ctex"]
 
 [params]
 

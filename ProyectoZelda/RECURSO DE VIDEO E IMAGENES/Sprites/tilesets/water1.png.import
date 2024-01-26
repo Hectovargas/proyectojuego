@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://daro48pxu3iki"
-path="res://.godot/imported/water1.png-c37c308172d159d21f4a2cd1c32e39c2.ctex"
+path="res://.godot/imported/water1.png-05571a874d7db9e594bbd0bcded1aade.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/tilesets/water1.png"
-dest_files=["res://.godot/imported/water1.png-c37c308172d159d21f4a2cd1c32e39c2.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Sprites/tilesets/water1.png"
+dest_files=["res://.godot/imported/water1.png-05571a874d7db9e594bbd0bcded1aade.ctex"]
 
 [params]
 

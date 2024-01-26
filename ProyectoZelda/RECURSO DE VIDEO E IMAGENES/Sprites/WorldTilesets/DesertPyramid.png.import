@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnwmceo2m6nnj"
-path="res://.godot/imported/DesertPyramid.png-8286c609af71f7e7fc99a642f673800f.ctex"
+path="res://.godot/imported/DesertPyramid.png-670fa7e204f1e329bb001071f554babf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/WorldTilesets/DesertPyramid.png"
-dest_files=["res://.godot/imported/DesertPyramid.png-8286c609af71f7e7fc99a642f673800f.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Sprites/WorldTilesets/DesertPyramid.png"
+dest_files=["res://.godot/imported/DesertPyramid.png-670fa7e204f1e329bb001071f554babf.ctex"]
 
 [params]
 

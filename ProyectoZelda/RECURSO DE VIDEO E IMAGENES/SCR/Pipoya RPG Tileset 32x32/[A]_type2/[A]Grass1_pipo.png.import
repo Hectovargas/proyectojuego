@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cw0shpno2hkms"
-path="res://.godot/imported/[A]Grass1_pipo.png-68567d1d2f72455d0aeda09fe7b1391e.ctex"
+path="res://.godot/imported/[A]Grass1_pipo.png-3d0b703644ae0a9c36d1c59b9746eb9d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SCR/Pipoya RPG Tileset 32x32/[A]_type2/[A]Grass1_pipo.png"
-dest_files=["res://.godot/imported/[A]Grass1_pipo.png-68567d1d2f72455d0aeda09fe7b1391e.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/SCR/Pipoya RPG Tileset 32x32/[A]_type2/[A]Grass1_pipo.png"
+dest_files=["res://.godot/imported/[A]Grass1_pipo.png-3d0b703644ae0a9c36d1c59b9746eb9d.ctex"]
 
 [params]
 

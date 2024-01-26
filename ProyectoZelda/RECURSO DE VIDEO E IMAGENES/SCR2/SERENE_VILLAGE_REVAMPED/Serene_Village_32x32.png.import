@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1bsl1gmq13ss"
-path="res://.godot/imported/Serene_Village_32x32.png-7d0c3674e9d8acaa5203a6b8e5f9b456.ctex"
+path="res://.godot/imported/Serene_Village_32x32.png-f6084fb9a03e811d9cb9a0ef5bc09b9c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SCR2/SERENE_VILLAGE_REVAMPED/Serene_Village_32x32.png"
-dest_files=["res://.godot/imported/Serene_Village_32x32.png-7d0c3674e9d8acaa5203a6b8e5f9b456.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/SCR2/SERENE_VILLAGE_REVAMPED/Serene_Village_32x32.png"
+dest_files=["res://.godot/imported/Serene_Village_32x32.png-f6084fb9a03e811d9cb9a0ef5bc09b9c.ctex"]
 
 [params]
 

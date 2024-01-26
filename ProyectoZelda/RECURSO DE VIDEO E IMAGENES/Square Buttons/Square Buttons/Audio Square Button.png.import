@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgwgp1et14pjo"
-path="res://.godot/imported/Audio Square Button.png-2aca1fe68679322aa4a4110750e40346.ctex"
+path="res://.godot/imported/Audio Square Button.png-ac0aabbc2d25c52bd820c9fd9d4260eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Square Buttons/Square Buttons/Audio Square Button.png"
-dest_files=["res://.godot/imported/Audio Square Button.png-2aca1fe68679322aa4a4110750e40346.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Square Buttons/Square Buttons/Audio Square Button.png"
+dest_files=["res://.godot/imported/Audio Square Button.png-ac0aabbc2d25c52bd820c9fd9d4260eb.ctex"]
 
 [params]
 

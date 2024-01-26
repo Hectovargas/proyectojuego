@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfa7la7g2egho"
-path="res://.godot/imported/Arrow.png-041e7e403259fa74a739640bbae8fde7.ctex"
+path="res://.godot/imported/Arrow.png-91d4c3023907c196060b1fcbade6ae65.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Arrow/Arrow.png"
-dest_files=["res://.godot/imported/Arrow.png-041e7e403259fa74a739640bbae8fde7.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Arrow/Arrow.png"
+dest_files=["res://.godot/imported/Arrow.png-91d4c3023907c196060b1fcbade6ae65.ctex"]
 
 [params]
 

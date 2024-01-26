@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6035p8gqr0iv"
-path="res://.godot/imported/BasicPlains-tileset-Ver.2-ALL_by_AxulArt.png-1a3dc666c44379883fdc9fbc1481e13f.ctex"
+path="res://.godot/imported/BasicPlains-tileset-Ver.2-ALL_by_AxulArt.png-27d48d6315b3cb041a79e84f5bfb1e9d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AxulArt's_BasicPlains-Tileset_ver.2_by_AxulArt/BasicPlains-tileset-Ver.2-ALL_by_AxulArt.png"
-dest_files=["res://.godot/imported/BasicPlains-tileset-Ver.2-ALL_by_AxulArt.png-1a3dc666c44379883fdc9fbc1481e13f.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/AxulArt's_BasicPlains-Tileset_ver.2_by_AxulArt/BasicPlains-tileset-Ver.2-ALL_by_AxulArt.png"
+dest_files=["res://.godot/imported/BasicPlains-tileset-Ver.2-ALL_by_AxulArt.png-27d48d6315b3cb041a79e84f5bfb1e9d.ctex"]
 
 [params]
 

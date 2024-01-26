@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbfam8hpdfwvs"
-path="res://.godot/imported/Load Button.png-6698b0d0b4c628079537f97c0a84945c.ctex"
+path="res://.godot/imported/Load Button.png-ae85b3ea11218154b375505f89679fd1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Large Buttons/Large Buttons/Load Button.png"
-dest_files=["res://.godot/imported/Load Button.png-6698b0d0b4c628079537f97c0a84945c.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Large Buttons/Large Buttons/Load Button.png"
+dest_files=["res://.godot/imported/Load Button.png-ae85b3ea11218154b375505f89679fd1.ctex"]
 
 [params]
 

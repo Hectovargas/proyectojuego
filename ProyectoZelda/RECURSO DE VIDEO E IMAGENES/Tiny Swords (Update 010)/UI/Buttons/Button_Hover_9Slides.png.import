@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dym2foeppdtth"
-path="res://.godot/imported/Button_Hover_9Slides.png-4f4fc61d6dfe31997b452e43bce63c09.ctex"
+path="res://.godot/imported/Button_Hover_9Slides.png-21e4e5166fdef9e02c7a8af0c1c13e87.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tiny Swords (Update 010)/UI/Buttons/Button_Hover_9Slides.png"
-dest_files=["res://.godot/imported/Button_Hover_9Slides.png-4f4fc61d6dfe31997b452e43bce63c09.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Tiny Swords (Update 010)/UI/Buttons/Button_Hover_9Slides.png"
+dest_files=["res://.godot/imported/Button_Hover_9Slides.png-21e4e5166fdef9e02c7a8af0c1c13e87.ctex"]
 
 [params]
 

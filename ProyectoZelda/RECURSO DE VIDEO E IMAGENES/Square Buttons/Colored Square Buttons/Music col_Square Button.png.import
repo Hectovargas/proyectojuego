@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mvxeebysp62g"
-path="res://.godot/imported/Music col_Square Button.png-fcabe4eca36229fda472b935eec05e52.ctex"
+path="res://.godot/imported/Music col_Square Button.png-1fc48f6a2a8acbcac809e68c0e4c0bd5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Square Buttons/Colored Square Buttons/Music col_Square Button.png"
-dest_files=["res://.godot/imported/Music col_Square Button.png-fcabe4eca36229fda472b935eec05e52.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Square Buttons/Colored Square Buttons/Music col_Square Button.png"
+dest_files=["res://.godot/imported/Music col_Square Button.png-1fc48f6a2a8acbcac809e68c0e4c0bd5.ctex"]
 
 [params]
 

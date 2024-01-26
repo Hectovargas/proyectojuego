@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3iapm6tyfeg0"
-path="res://.godot/imported/forest_ [resources].png-a74df0d138bfbfc0a342f12f72764017.ctex"
+path="res://.godot/imported/forest_ [resources].png-fbc9b2b508f94cc345f1a34f5ceb4276.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/WorldTilesets/forest_ [resources].png"
-dest_files=["res://.godot/imported/forest_ [resources].png-a74df0d138bfbfc0a342f12f72764017.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Sprites/WorldTilesets/forest_ [resources].png"
+dest_files=["res://.godot/imported/forest_ [resources].png-fbc9b2b508f94cc345f1a34f5ceb4276.ctex"]
 
 [params]
 

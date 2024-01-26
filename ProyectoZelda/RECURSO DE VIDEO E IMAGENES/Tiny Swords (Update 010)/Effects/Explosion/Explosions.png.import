@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://beccsbux1jw5n"
-path="res://.godot/imported/Explosions.png-816555f092ea01b543340aa837d726ff.ctex"
+path="res://.godot/imported/Explosions.png-6ad97ca328d487d7a3b015046ff8080d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tiny Swords (Update 010)/Effects/Explosion/Explosions.png"
-dest_files=["res://.godot/imported/Explosions.png-816555f092ea01b543340aa837d726ff.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Tiny Swords (Update 010)/Effects/Explosion/Explosions.png"
+dest_files=["res://.godot/imported/Explosions.png-6ad97ca328d487d7a3b015046ff8080d.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://07hn2ejs67oa"
-path="res://.godot/imported/IceTileset.png-a9656ffb5a48ee0749a738d7424fefb1.ctex"
+path="res://.godot/imported/IceTileset.png-c7ba7ec0db204a76dc3f19aecbb9ef24.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SCR/IceTileset.png"
-dest_files=["res://.godot/imported/IceTileset.png-a9656ffb5a48ee0749a738d7424fefb1.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/SCR/IceTileset.png"
+dest_files=["res://.godot/imported/IceTileset.png-c7ba7ec0db204a76dc3f19aecbb9ef24.ctex"]
 
 [params]
 

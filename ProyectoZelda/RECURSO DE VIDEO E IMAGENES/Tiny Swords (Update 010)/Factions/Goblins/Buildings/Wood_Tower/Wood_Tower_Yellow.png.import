@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtkr7ljgf58ku"
-path="res://.godot/imported/Wood_Tower_Yellow.png-2deca08cf1f0b88da1fbac28c1a0e802.ctex"
+path="res://.godot/imported/Wood_Tower_Yellow.png-449565ffed6429ebb8998635aea5579e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Yellow.png"
-dest_files=["res://.godot/imported/Wood_Tower_Yellow.png-2deca08cf1f0b88da1fbac28c1a0e802.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Yellow.png"
+dest_files=["res://.godot/imported/Wood_Tower_Yellow.png-449565ffed6429ebb8998635aea5579e.ctex"]
 
 [params]
 

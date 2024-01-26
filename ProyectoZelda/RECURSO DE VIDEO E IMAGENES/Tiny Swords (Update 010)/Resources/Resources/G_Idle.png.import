@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://pkegsc02sodd"
-path="res://.godot/imported/G_Idle.png-4026eb8685935127f7dd6d79eed3e78e.ctex"
+path="res://.godot/imported/G_Idle.png-b9ac4311f0cdd9181d4f073fb307c898.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tiny Swords (Update 010)/Resources/Resources/G_Idle.png"
-dest_files=["res://.godot/imported/G_Idle.png-4026eb8685935127f7dd6d79eed3e78e.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Tiny Swords (Update 010)/Resources/Resources/G_Idle.png"
+dest_files=["res://.godot/imported/G_Idle.png-b9ac4311f0cdd9181d4f073fb307c898.ctex"]
 
 [params]
 

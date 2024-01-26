@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hf4m3os6ul1t"
-path="res://.godot/imported/GoldMine_Active.png-14d34bc2468881b71bc92d3db6ec11fe.ctex"
+path="res://.godot/imported/GoldMine_Active.png-bad80b522a4e6944816dc815b915f363.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tiny Swords (Update 010)/Resources/Gold Mine/GoldMine_Active.png"
-dest_files=["res://.godot/imported/GoldMine_Active.png-14d34bc2468881b71bc92d3db6ec11fe.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Tiny Swords (Update 010)/Resources/Gold Mine/GoldMine_Active.png"
+dest_files=["res://.godot/imported/GoldMine_Active.png-bad80b522a4e6944816dc815b915f363.ctex"]
 
 [params]
 

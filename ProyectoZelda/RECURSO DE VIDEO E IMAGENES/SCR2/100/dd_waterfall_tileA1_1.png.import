@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5r71f4kerlb1"
-path="res://.godot/imported/dd_waterfall_tileA1_1.png-1dd85174f87d9cf971024032c6df4abd.ctex"
+path="res://.godot/imported/dd_waterfall_tileA1_1.png-975e49416de2475fa4e570eb7b706956.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SCR2/100/dd_waterfall_tileA1_1.png"
-dest_files=["res://.godot/imported/dd_waterfall_tileA1_1.png-1dd85174f87d9cf971024032c6df4abd.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/SCR2/100/dd_waterfall_tileA1_1.png"
+dest_files=["res://.godot/imported/dd_waterfall_tileA1_1.png-975e49416de2475fa4e570eb7b706956.ctex"]
 
 [params]
 

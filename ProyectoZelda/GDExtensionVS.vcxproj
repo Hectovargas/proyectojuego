@@ -137,17 +137,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="botonRegistro.cpp" />
     <ClCompile Include="charactermoves.cpp" />
     <ClCompile Include="CuboExample.cpp" />
     <ClCompile Include="GDExample.cpp" />
     <ClCompile Include="register_types.cpp" />
-    <ClCompile Include="Source.cpp" />
     <ClCompile Include="VSTestGDnative.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="botonRegistro.h" />
-    <ClInclude Include="charactermoves.h" />
     <ClInclude Include="CuboExample.h" />
     <ClInclude Include="GDExample.h" />
     <ClInclude Include="register_types.h" />

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dduvbehme3stv"
-path="res://.godot/imported/HappySheep_Bouncing.png-e446274eae5e99ff4a43dd7f20b4f555.ctex"
+path="res://.godot/imported/HappySheep_Bouncing.png-f5c05f7ebd9696750c5a331b5e513e09.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tiny Swords (Update 010)/Resources/Sheep/HappySheep_Bouncing.png"
-dest_files=["res://.godot/imported/HappySheep_Bouncing.png-e446274eae5e99ff4a43dd7f20b4f555.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Tiny Swords (Update 010)/Resources/Sheep/HappySheep_Bouncing.png"
+dest_files=["res://.godot/imported/HappySheep_Bouncing.png-f5c05f7ebd9696750c5a331b5e513e09.ctex"]
 
 [params]
 

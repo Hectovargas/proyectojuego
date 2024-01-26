@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5fj7xi8m8rkm"
-path="res://.godot/imported/desert_.png-daec200f7cf2aa6f324a589293054971.ctex"
+path="res://.godot/imported/desert_.png-c26429e3f6c6b7bca20c4f41df699119.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/WorldTilesets/desert_.png"
-dest_files=["res://.godot/imported/desert_.png-daec200f7cf2aa6f324a589293054971.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Sprites/WorldTilesets/desert_.png"
+dest_files=["res://.godot/imported/desert_.png-c26429e3f6c6b7bca20c4f41df699119.ctex"]
 
 [params]
 

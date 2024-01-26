@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bknxq7wwrde8m"
-path="res://.godot/imported/Game Boy Advance - CIMA The Enemy - Monster 13.png-af21e545bfd243a5d4fdf18c703524b1.ctex"
+path="res://.godot/imported/Game Boy Advance - CIMA The Enemy - Monster 13.png-bf59de0bf86e1d401d27ca1c9f67a02d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Game Boy Advance - CIMA The Enemy - Monster 13.png"
-dest_files=["res://.godot/imported/Game Boy Advance - CIMA The Enemy - Monster 13.png-af21e545bfd243a5d4fdf18c703524b1.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Sprites/Game Boy Advance - CIMA The Enemy - Monster 13.png"
+dest_files=["res://.godot/imported/Game Boy Advance - CIMA The Enemy - Monster 13.png-bf59de0bf86e1d401d27ca1c9f67a02d.ctex"]
 
 [params]
 

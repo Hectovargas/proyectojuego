@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ch2niurmpmar2"
-path="res://.godot/imported/Resume Button.png-f9029787bd145722c8a4e572ea2267bf.ctex"
+path="res://.godot/imported/Resume Button.png-3c19280291b080982956365643ab4931.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Large Buttons/Large Buttons/Resume Button.png"
-dest_files=["res://.godot/imported/Resume Button.png-f9029787bd145722c8a4e572ea2267bf.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Large Buttons/Large Buttons/Resume Button.png"
+dest_files=["res://.godot/imported/Resume Button.png-3c19280291b080982956365643ab4931.ctex"]
 
 [params]
 

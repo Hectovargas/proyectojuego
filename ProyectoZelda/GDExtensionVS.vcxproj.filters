@@ -30,12 +30,6 @@
     <ClCompile Include="charactermoves.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="botonRegistro.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="VSTestGDnative.h">
@@ -48,12 +42,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GDExample.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="charactermoves.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="botonRegistro.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

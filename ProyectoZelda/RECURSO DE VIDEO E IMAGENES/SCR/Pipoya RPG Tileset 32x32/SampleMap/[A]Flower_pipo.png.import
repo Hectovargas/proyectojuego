@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfdkgkh6na6ll"
-path="res://.godot/imported/[A]Flower_pipo.png-a433b90ed84893ad77b7bff302e3dce2.ctex"
+path="res://.godot/imported/[A]Flower_pipo.png-7fee94eff75c326b72976494583a7f06.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SCR/Pipoya RPG Tileset 32x32/SampleMap/[A]Flower_pipo.png"
-dest_files=["res://.godot/imported/[A]Flower_pipo.png-a433b90ed84893ad77b7bff302e3dce2.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/SCR/Pipoya RPG Tileset 32x32/SampleMap/[A]Flower_pipo.png"
+dest_files=["res://.godot/imported/[A]Flower_pipo.png-7fee94eff75c326b72976494583a7f06.ctex"]
 
 [params]
 

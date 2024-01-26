@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cm2kbh8irn8ou"
-path="res://.godot/imported/RPG Nature Tileset.png-3e98d94381b004b9b6cd347bd8abcc5f.ctex"
+path="res://.godot/imported/RPG Nature Tileset.png-8b58efe7eb0e868590bd583aa4e13b86.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SCR/RPG Nature Tileset.png"
-dest_files=["res://.godot/imported/RPG Nature Tileset.png-3e98d94381b004b9b6cd347bd8abcc5f.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/SCR/RPG Nature Tileset.png"
+dest_files=["res://.godot/imported/RPG Nature Tileset.png-8b58efe7eb0e868590bd583aa4e13b86.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckyja4ilatift"
-path="res://.godot/imported/water_decorations.png-e562d143a75280d8168eaf5f6024b3b0.ctex"
+path="res://.godot/imported/water_decorations.png-00afa3df43da387ff79ee38a790ba4eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/tilesets/water_decorations.png"
-dest_files=["res://.godot/imported/water_decorations.png-e562d143a75280d8168eaf5f6024b3b0.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Sprites/tilesets/water_decorations.png"
+dest_files=["res://.godot/imported/water_decorations.png-00afa3df43da387ff79ee38a790ba4eb.ctex"]
 
 [params]
 

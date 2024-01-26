@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bv2nqjdyovl81"
-path="res://.godot/imported/Pause Square Button.png-f4c3b16d0f6ff4111a0762dbfbc8bcf9.ctex"
+path="res://.godot/imported/Pause Square Button.png-7ca36880dc6780d0b339bc64b489f17d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Square Buttons/Square Buttons/Pause Square Button.png"
-dest_files=["res://.godot/imported/Pause Square Button.png-f4c3b16d0f6ff4111a0762dbfbc8bcf9.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Square Buttons/Square Buttons/Pause Square Button.png"
+dest_files=["res://.godot/imported/Pause Square Button.png-7ca36880dc6780d0b339bc64b489f17d.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dban1nyx7i56s"
-path="res://.godot/imported/snow-expansion.png-2d4c05d1d2928213a87050e3a97add1d.ctex"
+path="res://.godot/imported/snow-expansion.png-c213c3bdaa606d4e042c278faa9b9a5f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gfx/snow-expansion.png"
-dest_files=["res://.godot/imported/snow-expansion.png-2d4c05d1d2928213a87050e3a97add1d.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/snow-expansion.png"
+dest_files=["res://.godot/imported/snow-expansion.png-c213c3bdaa606d4e042c278faa9b9a5f.ctex"]
 
 [params]
 

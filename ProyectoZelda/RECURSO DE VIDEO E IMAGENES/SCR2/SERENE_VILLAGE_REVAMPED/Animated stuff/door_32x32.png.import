@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjua2r20brlmq"
-path="res://.godot/imported/door_32x32.png-9a86e40af76aaedfb9204f5542997bff.ctex"
+path="res://.godot/imported/door_32x32.png-5d6a861473ffcca6c4aa355ada26422d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SCR2/SERENE_VILLAGE_REVAMPED/Animated stuff/door_32x32.png"
-dest_files=["res://.godot/imported/door_32x32.png-9a86e40af76aaedfb9204f5542997bff.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/SCR2/SERENE_VILLAGE_REVAMPED/Animated stuff/door_32x32.png"
+dest_files=["res://.godot/imported/door_32x32.png-5d6a861473ffcca6c4aa355ada26422d.ctex"]
 
 [params]
 

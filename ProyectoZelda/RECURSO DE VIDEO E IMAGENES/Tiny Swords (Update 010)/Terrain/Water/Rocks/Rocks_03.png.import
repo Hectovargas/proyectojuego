@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://badspq3cptrna"
-path="res://.godot/imported/Rocks_03.png-4c4f012bfb5903177450715e2b380510.ctex"
+path="res://.godot/imported/Rocks_03.png-e25f516958319332115cce6f1ed7367e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_03.png"
-dest_files=["res://.godot/imported/Rocks_03.png-4c4f012bfb5903177450715e2b380510.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_03.png"
+dest_files=["res://.godot/imported/Rocks_03.png-e25f516958319332115cce6f1ed7367e.ctex"]
 
 [params]
 

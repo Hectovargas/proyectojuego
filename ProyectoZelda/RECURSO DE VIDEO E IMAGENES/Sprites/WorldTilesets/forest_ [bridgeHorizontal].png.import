@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbsykag01g4cn"
-path="res://.godot/imported/forest_ [bridgeHorizontal].png-1b9447dae46af1930b7f256d8b32d8cb.ctex"
+path="res://.godot/imported/forest_ [bridgeHorizontal].png-1da125d421d760326f6c0c4202584ccf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/WorldTilesets/forest_ [bridgeHorizontal].png"
-dest_files=["res://.godot/imported/forest_ [bridgeHorizontal].png-1b9447dae46af1930b7f256d8b32d8cb.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Sprites/WorldTilesets/forest_ [bridgeHorizontal].png"
+dest_files=["res://.godot/imported/forest_ [bridgeHorizontal].png-1da125d421d760326f6c0c4202584ccf.ctex"]
 
 [params]
 

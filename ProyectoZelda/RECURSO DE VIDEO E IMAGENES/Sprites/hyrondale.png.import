@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsv5eyowx53yl"
-path="res://.godot/imported/hyrondale.png-41ab30b277e6da9dc9ac40e5f26a3fcf.ctex"
+path="res://.godot/imported/hyrondale.png-a3fe702f6529a60745dfa8a5c936a15c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/hyrondale.png"
-dest_files=["res://.godot/imported/hyrondale.png-41ab30b277e6da9dc9ac40e5f26a3fcf.ctex"]
+source_file="res://RECURSO DE VIDEO E IMAGENES/Sprites/hyrondale.png"
+dest_files=["res://.godot/imported/hyrondale.png-a3fe702f6529a60745dfa8a5c936a15c.ctex"]
 
 [params]
 
