@@ -50,7 +50,7 @@ offset_bottom = 620.638
 
 [node name="titulo" type="Label" parent="VideoStreamPlayer/VBoxContainer"]
 layout_mode = 2
-text = "Gamestizacion"
+text = "GamIFICacion"
 label_settings = SubResource("LabelSettings_rvsmj")
 horizontal_alignment = 1
 uppercase = true
