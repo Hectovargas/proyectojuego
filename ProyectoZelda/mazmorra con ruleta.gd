@@ -7,6 +7,10 @@ var i = 0
 var j = 0
 var textos=""
 var empezar = false
+var ciencia = false
+var arte = false
+var historia = false
+var politica = false
 func _ready():
 	pass
 func _process(delta):
@@ -26,21 +30,22 @@ func _process(delta):
 	var numeroaleatorio
 	if $TileMap/Jugador.position.x >= 450 && $TileMap/Jugador.position.x <= 550 && $TileMap/Jugador.position.y <= 450 && $TileMap/Jugador.position.y >= 350:
 		if(ruleteado == false):
-			$TileMap/Label.set_text("Presione ENTER para interactuar")
+			$TileMap/Jugador/avisosLabel.set_text("Presione ENTER para interactuar")
 		if Input.is_key_pressed(KEY_ENTER):
 			if(ruleteado == false):
 				$TileMap/AnimatedSprite2D.play("default")
 				ruleteado = true;
 			else:
-				$TileMap/Label.set_text("Ya le diste a la ruleta")
+				$TileMap/Jugador/avisosLabel.set_text("Ya le diste a la ruleta")
 	else:
-		$TileMap/Label.set_text("")
+		$TileMap/Jugador/avisosLabel.set_text("")
 	if $TileMap/AnimatedSprite2D.is_playing():
 		var current_frame = $TileMap/AnimatedSprite2D.get_frame()
 		var random = RandomNumberGenerator.new()
 		numeroaleatorio = random.randi_range(0, 400000)
 		
-		if(numeroaleatorio>=0 && numeroaleatorio<=4000  && current_frame == 0):
+		if numeroaleatorio>=0 && numeroaleatorio<=4000  && current_frame == 0 && ciencia==false :
+			ciencia = true
 			$TileMap/AnimatedSprite2D.pause()
 			$TileMap/Jugador/Camera2D/TextureRect/Label.set_text("El resultado es: CIENCIA")
 			$TileMap/Jugador/Camera2D/TextureRect.show()
@@ -48,7 +53,8 @@ func _process(delta):
 			$StaticBody2D2.position = Vector2(0,0)
 			empezar=true
 			
-		if(numeroaleatorio>=4001 && numeroaleatorio<=8000 && current_frame == 2):
+		if(numeroaleatorio>=4001 && numeroaleatorio<=8000 && current_frame == 2 && arte == false):
+			arte = true
 			$TileMap/AnimatedSprite2D.pause()
 			$TileMap/Jugador/Camera2D/TextureRect/Label.set_text("El resultado es: ARTE")
 			$TileMap/Jugador/Camera2D/TextureRect.show()
@@ -56,7 +62,8 @@ func _process(delta):
 			$StaticBody2D3.position = Vector2(0,0)
 			empezar=true
 
-		if(numeroaleatorio>=80001 && numeroaleatorio<=12000 && current_frame == 4):
+		if(numeroaleatorio>=80001 && numeroaleatorio<=12000 && current_frame == 4 && historia == false):
+			historia=true
 			$TileMap/AnimatedSprite2D.pause()
 			$TileMap/Jugador/Camera2D/TextureRect/Label.set_text("El resultado es: HISTORIA")
 			$TileMap/Jugador/Camera2D/TextureRect.show()
@@ -64,9 +71,9 @@ func _process(delta):
 			$StaticBody2D4.position = Vector2(0,0)
 			empezar=true
 			
-		if(numeroaleatorio>=12001 && numeroaleatorio<=16000 && current_frame == 6):
+		if(numeroaleatorio>=12001 && numeroaleatorio<=16000 && current_frame == 6 && politica == false):
+			politica=true
 			$TileMap/AnimatedSprite2D.pause()
-			
 			$TileMap/Jugador/Camera2D/TextureRect/Label.set_text("El resultado es: POLITICA")
 			$TileMap/Jugador/Camera2D/TextureRect.show()
 			$Sprite2D4.show()

@@ -7502,9 +7502,14 @@ font_color = Color(0, 0.764706, 0.768627, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_65q3d"]
 font = ExtResource("12_hl3mw")
+font_size = 14
 font_color = Color(0, 0, 0, 1)
 shadow_size = 3
 shadow_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_kueid"]
+font = ExtResource("12_hl3mw")
+font_size = 14
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_u7lpw"]
 atlas = ExtResource("8_tllbm")
@@ -7570,10 +7575,6 @@ animations = [{
 "speed": 30.0
 }]
 
-[sub_resource type="LabelSettings" id="LabelSettings_65uhr"]
-font = ExtResource("12_hl3mw")
-font_size = 10
-
 [sub_resource type="CircleShape2D" id="CircleShape2D_0w3ew"]
 radius = 34.1321
 
@@ -7624,6 +7625,7 @@ offset_bottom = 60.0
 label_settings = SubResource("LabelSettings_yr280")
 
 [node name="NinePatchRect" type="NinePatchRect" parent="TileMap/Jugador"]
+visible = false
 offset_left = -239.0
 offset_top = 54.0
 offset_right = 240.0
@@ -7651,6 +7653,14 @@ autowrap_mode = 3
 clip_text = true
 uppercase = true
 
+[node name="avisosLabel" type="Label" parent="TileMap/Jugador"]
+offset_left = 26.0
+offset_top = -21.0
+offset_right = 172.0
+offset_bottom = 41.0
+label_settings = SubResource("LabelSettings_kueid")
+autowrap_mode = 3
+
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TileMap"]
 texture_filter = 1
 position = Vector2(496, 396)
@@ -7658,14 +7668,6 @@ scale = Vector2(1.01667, 1)
 sprite_frames = SubResource("SpriteFrames_llt7t")
 frame_progress = 0.293105
 script = ExtResource("11_pjieb")
-
-[node name="Label" type="Label" parent="TileMap"]
-texture_filter = 1
-offset_left = 449.0
-offset_top = 436.0
-offset_right = 548.0
-offset_bottom = 460.0
-label_settings = SubResource("LabelSettings_65uhr")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(497, 403)
