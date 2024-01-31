@@ -19,6 +19,7 @@ func _process(delta):
 	
 	if Direction.x!=0:
 		AnimatedSprite.play("WalkRight")
+		
 	elif Direction.y <0:
 		AnimatedSprite.play("WalkUp")
 	elif Direction.y >0:
@@ -31,4 +32,5 @@ func _process(delta):
 		elif LastDirection.y >0:
 			AnimatedSprite.play("Idle_Down")
 	AnimatedSprite.flip_h = LastDirection.x >0
+	
 

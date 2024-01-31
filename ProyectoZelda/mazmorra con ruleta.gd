@@ -86,3 +86,4 @@ func _process(delta):
 			if j > 250:
 				$TileMap/Jugador/Camera2D/TextureRect.hide()
 				empezar == false
+				
