@@ -28,8 +28,8 @@
 [ext_resource type="Texture2D" uid="uid://cfwcnfvtxqn0a" path="res://Sprites/WorldTilesets/HyruleCastle.png" id="19_5q3hm"]
 [ext_resource type="PackedScene" uid="uid://d2fkc3x4j1ndb" path="res://winter.tscn" id="19_ee0o2"]
 [ext_resource type="Texture2D" uid="uid://drhbjn7gk1j48" path="res://Sprites/WorldTilesets/tundra_ [fencesAndWalls].png" id="20_akdgj"]
-[ext_resource type="Texture2D" uid="uid://ctiw7cfmwltvb" path="res://RECURSO DE VIDEO E IMAGENES/Sprites/WorldTilesets/desert_ [bridgeVertical].png" id="22_ineop"]
-[ext_resource type="Texture2D" uid="uid://djtrfep0uyt4g" path="res://RECURSO DE VIDEO E IMAGENES/Sprites/WorldTilesets/forest_.png" id="23_ojkjj"]
+[ext_resource type="Texture2D" uid="uid://ctiw7cfmwltvb" path="res://Sprites/WorldTilesets/desert_ [bridgeVertical].png" id="22_ineop"]
+[ext_resource type="Texture2D" uid="uid://djtrfep0uyt4g" path="res://Sprites/WorldTilesets/forest_.png" id="23_ojkjj"]
 [ext_resource type="FontFile" uid="uid://djhexv14ukq7a" path="res://RECURSO DE VIDEO E IMAGENES/Abaddon_Fonts_v1.2/Abaddon Light.ttf" id="28_dkbrk"]
 [ext_resource type="Texture2D" uid="uid://dy2nlp8pvn7qk" path="res://RECURSO DE VIDEO E IMAGENES/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Blue_Connection_Down.png" id="29_kim76"]
 [ext_resource type="Texture2D" uid="uid://btarob8qyfh3l" path="res://linkImg.png" id="30_ynjp1"]
@@ -41100,6 +41100,7 @@ label_settings = SubResource("LabelSettings_ktqgf")
 autowrap_mode = 3
 
 [node name="NinePatchRect" type="NinePatchRect" parent="TileMap/Jugador"]
+visible = false
 offset_left = -239.0
 offset_top = 54.0
 offset_right = 240.0
