@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://bb14ivh8cwvg5"]
+[gd_scene load_steps=8 format=3 uid="uid://bb14ivh8cwvg5"]
 
 [ext_resource type="Script" path="res://Cinematica.gd" id="1_qnaag"]
 
@@ -41,6 +41,14 @@ _data = {
 "RESET": SubResource("Animation_rqwxd"),
 "type": SubResource("Animation_2h1dt")
 }
+
+[sub_resource type="SystemFont" id="SystemFont_d2fdd"]
+font_names = PackedStringArray("Calibri")
+
+[sub_resource type="LabelSettings" id="LabelSettings_55nqp"]
+font = SubResource("SystemFont_d2fdd")
+font_size = 22
+font_color = Color(0.45098, 0.45098, 0.45098, 1)
 
 [node name="Cinematica" type="Control"]
 layout_mode = 3
@@ -85,3 +93,14 @@ libraries = {
 }
 
 [node name="audios" type="AudioStreamPlayer" parent="CanvasLayer"]
+
+[node name="Label2" type="Label" parent="CanvasLayer"]
+visible = false
+offset_left = 919.0
+offset_top = 624.0
+offset_right = 1149.0
+offset_bottom = 658.0
+text = "pulse ENTER para skipear"
+label_settings = SubResource("LabelSettings_55nqp")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="CanvasLayer"]

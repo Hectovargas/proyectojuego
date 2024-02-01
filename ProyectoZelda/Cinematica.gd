@@ -1,61 +1,44 @@
 extends Control
 
-
+var segundos = 0
 # Called when the node enters the scene tree for the first time.
+
 func _ready():
 	pass # Replace with function body.
 
 var parrafo: int=0
 var contador: int=0
 var enterPressed: bool=true
+var reproducido = true
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 
 func start(Text:String,image:Texture,audios: AudioStream)->void:
 	$CanvasLayer.show()
+	$CanvasLayer/Label.text[0]
 	$CanvasLayer/Label.text = Text
 	$CanvasLayer/Image.texture = image
 	$CanvasLayer/audios.stream = audios
 	$CanvasLayer/audios.play()
+	$CanvasLayer/AnimationPlayer.stop()
 	$CanvasLayer/AnimationPlayer.play("type")
 	
 
 func _process(delta):
-	if contador==0:
-		start(textos[parrafo],images[parrafo],audio[parrafo])
-		if(parrafo==7):
-			if Input.is_key_pressed(KEY_ENTER):
+	segundos+=1
+	print(segundos)
+	if(parrafo==0 && reproducido == true):
+		reproducido=false
+		start(textos[0],images[0],audio[0])
+	if segundos >= 100:
+		$CanvasLayer/Label2.show()
+		if Input.is_key_pressed(KEY_ENTER):
+			parrafo+=1
+			$CanvasLayer/Label2.hide()
+			segundos=0
+			if 7<parrafo:
 				get_tree().change_scene_to_file("res://zona Inical.tscn") 
-		else:
-			contador+=1
-	
-	if parrafo<8:
-		if enterPressed == true:
-			presionoEnter()
-		
-		if Input.is_key_pressed(KEY_Z):
-			enterPressed=true
-		pass
-
-
-
-
-func typing()->void:
-	if 7<parrafo:
-		get_tree().change_scene_to_file("res://zona Inical.tscn") 
-		hide()
-	else:
-		start(textos[parrafo],images[parrafo],audio[parrafo])
-			
-		
-		
-
-
-func presionoEnter()->void:
-	if Input.is_key_pressed(KEY_ENTER):
-		parrafo+=1
-		typing()
-		enterPressed=false
-		
+			else:
+				start(textos[parrafo],images[parrafo],audio[parrafo])
 
 const images : Dictionary ={
 	0 : preload("res://images/numero1.png"),
