@@ -1,17 +1,16 @@
-[gd_scene load_steps=28 format=3 uid="uid://d2fkc3x4j1ndb"]
+[gd_scene load_steps=27 format=3 uid="uid://d2fkc3x4j1ndb"]
 
 [ext_resource type="Texture2D" uid="uid://bi8k23mn8iw2h" path="res://Sprites/WorldTilesets/snow-expansion.png" id="1_nkdib"]
 [ext_resource type="Texture2D" uid="uid://cwlsokjvwis3e" path="res://Sprites/WorldTilesets/Ice Temple.png" id="2_ayxpe"]
 [ext_resource type="Texture2D" uid="uid://dbv2wxxfsn8om" path="res://Sprites/WorldTilesets/ice_.png" id="3_elq0c"]
-[ext_resource type="Texture2D" uid="uid://dbqjqxeixt482" path="res://RECURSO DE VIDEO E IMAGENES/Sprites/WorldTilesets/tundra_ [fountain].png" id="3_wssf5"]
-[ext_resource type="Texture2D" uid="uid://bwim7njrbp3ii" path="res://RECURSO DE VIDEO E IMAGENES/Sprites/WorldTilesets/tundra_.png" id="4_kk4k7"]
+[ext_resource type="Texture2D" uid="uid://bwim7njrbp3ii" path="res://Sprites/WorldTilesets/tundra_.png" id="4_kk4k7"]
 [ext_resource type="Texture2D" uid="uid://811xfpvyrwgs" path="res://Sprites/!CL_DEMO.png" id="4_sa0r4"]
 [ext_resource type="Texture2D" uid="uid://c40arqf8e7s7f" path="res://Sprites/WorldTilesets/tundra_ [resources].png" id="5_ipgnw"]
-[ext_resource type="Texture2D" uid="uid://cfwcnfvtxqn0a" path="res://RECURSO DE VIDEO E IMAGENES/Sprites/WorldTilesets/HyruleCastle.png" id="5_oagot"]
+[ext_resource type="Texture2D" uid="uid://cfwcnfvtxqn0a" path="res://Sprites/WorldTilesets/HyruleCastle.png" id="5_oagot"]
 [ext_resource type="Texture2D" uid="uid://dbqjqxeixt482" path="res://Sprites/WorldTilesets/tundra_ [fountain].png" id="6_etopd"]
 [ext_resource type="Texture2D" uid="uid://dtrnkps888twt" path="res://Sprites/WorldTilesets/tundra_ [bridgeHorizontal].png" id="7_k3pp5"]
 [ext_resource type="Texture2D" uid="uid://dbsykag01g4cn" path="res://Sprites/WorldTilesets/forest_ [bridgeHorizontal].png" id="8_tw71u"]
-[ext_resource type="Texture2D" uid="uid://drhbjn7gk1j48" path="res://RECURSO DE VIDEO E IMAGENES/Sprites/WorldTilesets/tundra_ [fencesAndWalls].png" id="12_bg84t"]
+[ext_resource type="Texture2D" uid="uid://drhbjn7gk1j48" path="res://Sprites/WorldTilesets/tundra_ [fencesAndWalls].png" id="12_bg84t"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_swh1e"]
 texture = ExtResource("1_nkdib")
@@ -2151,7 +2150,7 @@ texture_region_size = Vector2i(18, 18)
 0:8/0/physics_layer_1/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d5vjp"]
-texture = ExtResource("3_wssf5")
+texture = ExtResource("6_etopd")
 1:0/0 = 0
 1:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 1:0/0/physics_layer_0/angular_velocity = 0.0

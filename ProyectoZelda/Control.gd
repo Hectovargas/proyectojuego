@@ -23,7 +23,7 @@ func _on_texture_button_pressed():
 	var currentpassword = load_datas.contraseña
 	var currentuser = load_datas.usuario
 	if( currentpassword==contraseña && currentuser == nombre):
-		get_tree().change_scene_to_file("res://zona Inical.tscn") 
+		get_tree().change_scene_to_file("res://cinematica.tscn") 
 	else:
 		var Line_Edit = $NinePatchRect.get_node("Label4")
 		Line_Edit.set_text("Cuenta No encontrada")
