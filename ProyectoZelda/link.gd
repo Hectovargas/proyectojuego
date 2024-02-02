@@ -5,6 +5,7 @@ var AnimatedSprite
 
 func _ready():
 	AnimatedSprite = $AnimatedSprite2D
+	add_to_group("Jugador")
 
 func _physics_process(delta):
 	move_and_slide()
