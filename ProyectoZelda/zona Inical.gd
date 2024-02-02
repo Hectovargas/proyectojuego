@@ -13,25 +13,26 @@ var historia = false
 var politica = false
 var segundos = 0
 
+var cambiar_escena = false
+var escena_actual = "zona Inical"
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
 
+func _on_primercastle_body_entered(body):
+	if body.is_in_group("Jugador"):
+		cambiar_escena = true
+		change_scenes()
 
+func change_scenes():
+	if cambiar_escena == true:
+		if escena_actual == "zona Inical":
+			get_tree().change_scene_to_file("res://primercastle.tscn")
+			
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	if $MapaInicial/Jugador.position.x >= 693 && $MapaInicial/Jugador.position.x <= 714 && $MapaInicial/Jugador.position.y <= 1300 && $MapaInicial/Jugador.position.y >=1272:
-		print("ya estoy")
-		$MapaInicial/Jugador.position = Vector2(4248,203)
-	if $MapaInicial/Jugador.position.y >= 289 && $MapaInicial/Jugador.position.y <= 310 && $MapaInicial/Jugador.position.x <= 4215 && $MapaInicial/Jugador.position.x >=4186:
-		print("ya estoy")
-		$MapaInicial/Jugador.position = Vector2(693,1300)
-	if $MapaInicial/Jugador.position.y >= 182 && $MapaInicial/Jugador.position.y <= 211 && $MapaInicial/Jugador.position.x <= 4106 && $MapaInicial/Jugador.position.x >=3976:
-		segundos+=1
-		$MapaInicial/Sprite2D.show()
-		$MapaInicial/Jugador.position = Vector2(4050,195)
-		if segundos>=75:
-			$MapaInicial/Jugador.position = Vector2(4493,1106)
+	
 			
 	if $MapaInicial/Jugador.position.x>=-1000 && $MapaInicial/Jugador.position.x<=3000:
 		if ($MapaInicial/Jugador.position.x >= 1326 && $MapaInicial/Jugador.position.x <= 1382 && $MapaInicial/Jugador.position.y <= 742 && $MapaInicial/Jugador.position.y >= 691 or $MapaInicial/Jugador.position.x >= 392 && $MapaInicial/Jugador.position.x <= 458 && $MapaInicial/Jugador.position.y <= 1508 && $MapaInicial/Jugador.position.y >= 1470 or $MapaInicial/Jugador.position.x >= -830 && $MapaInicial/Jugador.position.x <= -778 && $MapaInicial/Jugador.position.y <= 750 && $MapaInicial/Jugador.position.y >= 689):
@@ -119,3 +120,7 @@ func _process(delta):
 					$MapaInicial/Jugador/Camera2D/TextureRect.hide()
 					empezar == false
 					
+
+
+
+
