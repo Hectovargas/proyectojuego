@@ -14,4 +14,4 @@ func _on_zona_inicial_body_entered(body):
 func change_scenes():
 	if cambiar_escena == true:
 		if escena_actual == "primercastle":
-			get_tree().change_scene_to_file("res://escenas/zona Inical.tscn")
+			get_tree().change_scene_to_file("res://zona Inical.tscn")

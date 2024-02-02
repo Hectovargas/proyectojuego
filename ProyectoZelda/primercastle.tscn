@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://dadnwng0tveuv"]
+[gd_scene load_steps=7 format=3 uid="uid://dadnwng0tveuv"]
 
 [ext_resource type="Script" path="res://primercastle.gd" id="1_1apu5"]
 [ext_resource type="Texture2D" uid="uid://ddwjobgjcurly" path="res://RECURSO DE VIDEO E IMAGENES/Game Boy GBC - The Legend of Zelda Links Awakening DX - Interior Maps GB.png" id="1_ux6bf"]
+[ext_resource type="PackedScene" uid="uid://wx775h6gysli" path="res://link.tscn" id="3_68qj1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ker5x"]
 texture = ExtResource("1_ux6bf")
@@ -72721,6 +72722,9 @@ texture = ExtResource("1_ux6bf")
 physics_layer_0/collision_layer = 1
 sources/1 = SubResource("TileSetAtlasSource_ker5x")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gdwab"]
+size = Vector2(21, 30)
+
 [node name="PrimerCastle" type="Node2D"]
 script = ExtResource("1_1apu5")
 
@@ -72729,6 +72733,13 @@ tile_set = SubResource("TileSet_43x3r")
 format = 2
 layer_0/tile_data = PackedInt32Array(524298, 4128769, 52)
 
-[node name="zonaInicial" type="Area2D" parent="TileMap"]
+[node name="Jugador" parent="TileMap" instance=ExtResource("3_68qj1")]
+position = Vector2(246, 211)
 
-[connection signal="body_entered" from="TileMap/zonaInicial" to="." method="_on_zona_inicial_body_entered"]
+[node name="zonaInicial" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="zonaInicial"]
+position = Vector2(249, 247)
+shape = SubResource("RectangleShape2D_gdwab")
+
+[connection signal="body_entered" from="zonaInicial" to="." method="_on_zona_inicial_body_entered"]
