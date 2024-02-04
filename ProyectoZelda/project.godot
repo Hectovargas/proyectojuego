@@ -19,6 +19,7 @@ boot_splash/bg_color=Color(0.141176, 0.141176, 0.141176, 1)
 
 FileUtils="*res://file_utils.gd"
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+Global="*res://Global.gd"
 
 [debug]
 
