@@ -1,27 +1,42 @@
 extends Node2D
 var animated_sprite = AnimatedSprite2D.new()
-var ruleteado = false;
-var dialog = false
 var texto = "Aparentemente he caido en una trampa"
 var i = 0
 var j = 0
 var textos=""
-var empezar = false
-var ciencia = false
-var arte = false
-var historia = false
-var politica = false
+var probabilidades_politica = 2000
+var probabilidades_Historia = 2000
+var probabilidades_Ciencia = 2000
+var probabilidades_Arte = 2000
+
 func _ready():
-	pass
+	if Global.politica==true:
+		probabilidades_Arte*2
+		probabilidades_Ciencia*2
+		probabilidades_Historia*2
+	if Global.historia==true:
+		probabilidades_Arte*2
+		probabilidades_Ciencia*2
+		probabilidades_politica*2
+	if Global.ciencia==true:
+		probabilidades_Arte*2
+		probabilidades_politica*2
+		probabilidades_Historia*2
+	if Global.arte==true:
+		probabilidades_politica*2
+		probabilidades_Ciencia*2
+		probabilidades_Historia*2
+	
 func _process(delta):
-	if $TileMap/Jugador.position.x >= 450 && $TileMap/Jugador.position.x <= 550 && $TileMap/Jugador.position.y <= 650 && $TileMap/Jugador.position.y >= 550 && dialog == false:
+	
+	if $TileMap/Jugador.position.x >= 450 && $TileMap/Jugador.position.x <= 550 && $TileMap/Jugador.position.y <= 650 && $TileMap/Jugador.position.y >= 550 && Global.dialog == false:
 		if i<36:
 			$TileMap/Jugador/NinePatchRect.show()
 			textos = $TileMap/Jugador/NinePatchRect/Label.text+(texto[i])
 			$TileMap/Jugador/NinePatchRect/Label.set_text(textos)
 			
 		else:
-			var dialog = true
+			Global.dialog = true
 			if Input.is_key_pressed(KEY_ENTER):
 				$TileMap/Jugador/NinePatchRect.hide()
 		i+=1
@@ -29,61 +44,84 @@ func _process(delta):
 		$TileMap/Jugador/NinePatchRect.hide()
 	var numeroaleatorio
 	if $TileMap/Jugador.position.x >= 450 && $TileMap/Jugador.position.x <= 550 && $TileMap/Jugador.position.y <= 450 && $TileMap/Jugador.position.y >= 350:
-		if(ruleteado == false):
+		if(Global.ruleteado == false):
 			$TileMap/Jugador/avisosLabel.set_text("Presione ENTER para interactuar")
 		if Input.is_key_pressed(KEY_ENTER):
-			if(ruleteado == false):
+			if(Global.ruleteado == false):
 				$TileMap/AnimatedSprite2D.play("default")
-				ruleteado = true;
+				Global.ruleteado = true;
 			else:
 				$TileMap/Jugador/avisosLabel.set_text("Ya le diste a la ruleta")
 	else:
 		$TileMap/Jugador/avisosLabel.set_text("")
 	if $TileMap/AnimatedSprite2D.is_playing():
+		
 		var current_frame = $TileMap/AnimatedSprite2D.get_frame()
 		var random = RandomNumberGenerator.new()
 		numeroaleatorio = random.randi_range(0, 400000)
-		
-		if numeroaleatorio>=0 && numeroaleatorio<=4000  && current_frame == 0 && ciencia==false :
-			ciencia = true
+		print(current_frame)
+		print(numeroaleatorio)
+		if numeroaleatorio>=0 && numeroaleatorio<=(2*probabilidades_Ciencia)  && current_frame == 0 && Global.ciencia==false :
+			Global.ciencia = true
 			$TileMap/AnimatedSprite2D.pause()
 			$TileMap/Jugador/Camera2D/TextureRect/Label.set_text("El resultado es: CIENCIA")
 			$TileMap/Jugador/Camera2D/TextureRect.show()
 			$Sprite2D.show()
 			$StaticBody2D2.position = Vector2(0,0)
-			empezar=true
+			Global.empezar=true
 			
-		if(numeroaleatorio>=4001 && numeroaleatorio<=8000 && current_frame == 2 && arte == false):
-			arte = true
+		if(numeroaleatorio>=(2*probabilidades_Arte)+1 && numeroaleatorio<=(4*probabilidades_Arte) && current_frame == 2 && Global.arte == false):
+			Global.arte = true
 			$TileMap/AnimatedSprite2D.pause()
 			$TileMap/Jugador/Camera2D/TextureRect/Label.set_text("El resultado es: ARTE")
 			$TileMap/Jugador/Camera2D/TextureRect.show()
 			$Sprite2D2.show()
 			$StaticBody2D3.position = Vector2(0,0)
-			empezar=true
+			Global.empezar=true
 
-		if(numeroaleatorio>=80001 && numeroaleatorio<=12000 && current_frame == 4 && historia == false):
-			historia=true
+		if(numeroaleatorio>=(4*probabilidades_Historia)+1 && numeroaleatorio<=(6*probabilidades_Historia) && current_frame == 4 && Global.historia == false):
+			Global.historia=true
 			$TileMap/AnimatedSprite2D.pause()
 			$TileMap/Jugador/Camera2D/TextureRect/Label.set_text("El resultado es: HISTORIA")
 			$TileMap/Jugador/Camera2D/TextureRect.show()
 			$Sprite2D3.show()
 			$StaticBody2D4.position = Vector2(0,0)
-			empezar=true
+			Global.empezar=true
 			
-		if(numeroaleatorio>=12001 && numeroaleatorio<=16000 && current_frame == 6 && politica == false):
-			politica=true
+		if(numeroaleatorio>=(6*probabilidades_politica)+1 && numeroaleatorio<=(8*probabilidades_politica) && current_frame == 6 && Global.politica == false):
+			Global.politica=true
 			$TileMap/AnimatedSprite2D.pause()
 			$TileMap/Jugador/Camera2D/TextureRect/Label.set_text("El resultado es: POLITICA")
 			$TileMap/Jugador/Camera2D/TextureRect.show()
 			$Sprite2D4.show()
 			$StaticBody2D5.position = Vector2(0,0)
-			empezar=true
+			Global.empezar=true
 	if j<251:
-		if empezar == true:
+		if Global.empezar == true:
 			j+=1
 			print (j)
 			if j > 250:
 				$TileMap/Jugador/Camera2D/TextureRect.hide()
-				empezar == false
+				Global.empezar = false
 				
+
+
+func _on_area_2d_body_entered(body):
+	if body.is_in_group("Jugador"):
+		Global.ruleteado = false;
+
+
+func _on_area_2d_2_body_entered(body):
+	if body.is_in_group("Jugador"):
+		Global.ruleteado = false;
+
+
+func _on_area_2d_4_body_entered(body):
+	if body.is_in_group("Jugador"):
+		Global.ruleteado = false;
+
+
+func _on_area_2d_3_body_entered(body):
+	if body.is_in_group("Jugador"):
+		Global.ruleteado = false;
+		get_tree().change_scene_to_file("res://minijuegoLaberinto.tscn")

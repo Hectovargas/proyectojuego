@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=3 uid="uid://wx775h6gysli"]
+[gd_scene load_steps=30 format=3 uid="uid://wx775h6gysli"]
 
 [ext_resource type="Script" path="res://link.gd" id="1_h4jya"]
 [ext_resource type="Texture2D" uid="uid://bcax86bfiwoo4" path="res://Sprites/Link1.png" id="1_r1xf4"]
@@ -15,6 +15,30 @@ region = Rect2(145, 0, 29, 26)
 [sub_resource type="AtlasTexture" id="AtlasTexture_m2sqe"]
 atlas = ExtResource("1_r1xf4")
 region = Rect2(58, 0, 29, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_apedt"]
+atlas = ExtResource("2_n1j75")
+region = Rect2(87, 210, 29, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3f64s"]
+atlas = ExtResource("2_n1j75")
+region = Rect2(29, 270, 29, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3i8lf"]
+atlas = ExtResource("2_n1j75")
+region = Rect2(87, 270, 29, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ywaip"]
+atlas = ExtResource("2_n1j75")
+region = Rect2(58, 0, 29, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g1rav"]
+atlas = ExtResource("2_n1j75")
+region = Rect2(0, 0, 29, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vvobb"]
+atlas = ExtResource("2_n1j75")
+region = Rect2(87, 210, 29, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8v1lo"]
 atlas = ExtResource("1_r1xf4")
@@ -104,6 +128,34 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_apedt")
+}],
+"loop": true,
+"name": &"MUERTEDEFINITIVA",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3f64s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3i8lf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ywaip")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g1rav")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vvobb")
+}],
+"loop": true,
+"name": &"MUERTO",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_8v1lo")
 }, {
 "duration": 1.0,
@@ -176,7 +228,7 @@ script = ExtResource("1_h4jya")
 z_index = 1
 y_sort_enabled = true
 sprite_frames = SubResource("SpriteFrames_o2v6d")
-animation = &"WalkDown"
+animation = &"MUERTO"
 autoplay = "WalkDown"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
