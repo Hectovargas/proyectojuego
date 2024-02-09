@@ -1,8 +1,15 @@
-[gd_scene load_steps=30 format=3 uid="uid://wx775h6gysli"]
+[gd_scene load_steps=34 format=3 uid="uid://wx775h6gysli"]
 
 [ext_resource type="Script" path="res://link.gd" id="1_h4jya"]
 [ext_resource type="Texture2D" uid="uid://bcax86bfiwoo4" path="res://Sprites/Link1.png" id="1_r1xf4"]
+[ext_resource type="Texture2D" uid="uid://dti2wldnuhc5j" path="res://RECURSO DE VIDEO E IMAGENES/Sprites/Link_Misc.png" id="2_805bm"]
 [ext_resource type="Texture2D" uid="uid://dti2wldnuhc5j" path="res://Sprites/Link_Misc.png" id="2_n1j75"]
+[ext_resource type="Texture2D" uid="uid://dyak0qhdkywha" path="res://RECURSO DE VIDEO E IMAGENES/Hearts/PNG/basic/border.png" id="5_us2vr"]
+[ext_resource type="Texture2D" uid="uid://iej57ptmx0dl" path="res://RECURSO DE VIDEO E IMAGENES/Hearts/PNG/basic/heart.png" id="6_67npl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3reu1"]
+atlas = ExtResource("2_805bm")
+region = Rect2(120, 210, 24, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vxxcx"]
 atlas = ExtResource("1_r1xf4")
@@ -102,6 +109,14 @@ region = Rect2(120, 120, 24, 30)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_o2v6d"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3reu1")
+}],
+"loop": true,
+"name": &"CAIDA",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vxxcx")
@@ -228,7 +243,7 @@ script = ExtResource("1_h4jya")
 z_index = 1
 y_sort_enabled = true
 sprite_frames = SubResource("SpriteFrames_o2v6d")
-animation = &"MUERTO"
+animation = &"CAIDA"
 autoplay = "WalkDown"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -236,3 +251,73 @@ z_index = 1
 y_sort_enabled = true
 position = Vector2(0, 1)
 shape = SubResource("CapsuleShape2D_7hppb")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+visible = false
+offset_left = -19.0
+offset_top = -23.0
+offset_right = 25.0
+offset_bottom = -13.0
+
+[node name="coracointainer" type="Sprite2D" parent="RichTextLabel"]
+visible = false
+position = Vector2(4, 7)
+scale = Vector2(0.323529, 0.308824)
+texture = ExtResource("5_us2vr")
+
+[node name="cora1" type="Sprite2D" parent="RichTextLabel/coracointainer"]
+texture = ExtResource("6_67npl")
+
+[node name="coracointainer2" type="Sprite2D" parent="RichTextLabel"]
+visible = false
+position = Vector2(10, 7)
+scale = Vector2(0.323529, 0.308824)
+texture = ExtResource("5_us2vr")
+
+[node name="cora2" type="Sprite2D" parent="RichTextLabel/coracointainer2"]
+texture = ExtResource("6_67npl")
+
+[node name="coracointainer3" type="Sprite2D" parent="RichTextLabel"]
+visible = false
+position = Vector2(16, 7)
+scale = Vector2(0.323529, 0.308824)
+texture = ExtResource("5_us2vr")
+
+[node name="cora3" type="Sprite2D" parent="RichTextLabel/coracointainer3"]
+texture = ExtResource("6_67npl")
+
+[node name="coracointainer4" type="Sprite2D" parent="RichTextLabel"]
+visible = false
+position = Vector2(22, 7)
+scale = Vector2(0.323529, 0.308824)
+texture = ExtResource("5_us2vr")
+
+[node name="cora4" type="Sprite2D" parent="RichTextLabel/coracointainer4"]
+texture = ExtResource("6_67npl")
+
+[node name="coracointainer5" type="Sprite2D" parent="RichTextLabel"]
+visible = false
+position = Vector2(28, 7)
+scale = Vector2(0.323529, 0.308824)
+texture = ExtResource("5_us2vr")
+
+[node name="cora5" type="Sprite2D" parent="RichTextLabel/coracointainer5"]
+texture = ExtResource("6_67npl")
+
+[node name="coracointainer6" type="Sprite2D" parent="RichTextLabel"]
+visible = false
+position = Vector2(34, 7)
+scale = Vector2(0.323529, 0.308824)
+texture = ExtResource("5_us2vr")
+
+[node name="cora6" type="Sprite2D" parent="RichTextLabel/coracointainer6"]
+texture = ExtResource("6_67npl")
+
+[node name="coracointainer7" type="Sprite2D" parent="RichTextLabel"]
+visible = false
+position = Vector2(40, 7)
+scale = Vector2(0.323529, 0.308824)
+texture = ExtResource("5_us2vr")
+
+[node name="cora7" type="Sprite2D" parent="RichTextLabel/coracointainer7"]
+texture = ExtResource("6_67npl")
