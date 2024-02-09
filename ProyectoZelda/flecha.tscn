@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://ch63qsgr5uv3x"]
+
+[ext_resource type="Texture2D" uid="uid://dgaden6g3gxyl" path="res://Sprites/grayArrow.png" id="1_bf0s8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_th5bq"]
+size = Vector2(399.992, 29.5993)
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(-2.38419e-07, 1)
+rotation = 3.1352
+scale = Vector2(0.04, 0.03)
+texture = ExtResource("1_bf0s8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(57.0266, -309.136)
+scale = Vector2(1, 78.2977)
+shape = SubResource("RectangleShape2D_th5bq")

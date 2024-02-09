@@ -1,6 +1,5 @@
 extends Node2D
 
-@onready var main = get_node("/shooter")
 var stalfos_scene: = preload("res://stalfos.tscn")
 var spawn_points: = []
 

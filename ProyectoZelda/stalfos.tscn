@@ -43,12 +43,6 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_dhtqi")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_oqqsn")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_i33ct")
 }],
 "loop": false,
 "name": &"dead!",

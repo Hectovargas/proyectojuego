@@ -1,0 +1,41 @@
+[gd_scene load_steps=7 format=3 uid="uid://c6lwajsspq1tb"]
+
+[ext_resource type="Script" path="res://main_shooter.gd" id="1_bynpl"]
+[ext_resource type="PackedScene" uid="uid://cif780fnx86pe" path="res://shooter_politica.tscn" id="1_l2ykv"]
+[ext_resource type="PackedScene" uid="uid://wx775h6gysli" path="res://link.tscn" id="2_dewkj"]
+[ext_resource type="PackedScene" uid="uid://co3taye775xyi" path="res://stalfos_spawn.tscn" id="3_vqeup"]
+[ext_resource type="PackedScene" uid="uid://dntnjah2tke8h" path="res://stalfos.tscn" id="4_0gy67"]
+[ext_resource type="PackedScene" uid="uid://ch63qsgr5uv3x" path="res://flecha.tscn" id="6_h4yo4"]
+
+[node name="MainShooter" type="Node"]
+script = ExtResource("1_bynpl")
+
+[node name="Shooter(Politica)" parent="." instance=ExtResource("1_l2ykv")]
+
+[node name="Jugador" parent="." instance=ExtResource("2_dewkj")]
+position = Vector2(67, 506)
+scale = Vector2(3, 3)
+
+[node name="StalfosSpawn" parent="." instance=ExtResource("3_vqeup")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(573, 323)
+
+[node name="Stalfos" parent="." instance=ExtResource("4_0gy67")]
+position = Vector2(296, 47)
+scale = Vector2(3, 3)
+
+[node name="Stalfos2" parent="." instance=ExtResource("4_0gy67")]
+position = Vector2(447, 50)
+scale = Vector2(3, 3)
+
+[node name="Stalfos3" parent="." instance=ExtResource("4_0gy67")]
+position = Vector2(621, 48)
+scale = Vector2(3, 3)
+
+[node name="Stalfos4" parent="." instance=ExtResource("4_0gy67")]
+position = Vector2(762, 47)
+scale = Vector2(3, 3)
+
+[node name="Sprite2D" parent="." instance=ExtResource("6_h4yo4")]
+position = Vector2(293, 511)
