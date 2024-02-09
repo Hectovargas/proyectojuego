@@ -9,6 +9,7 @@ func _ready():
 
 func _physics_process(delta):
 	move_and_slide()
+	
 
 func _process(delta):
 	if Input.is_key_pressed(KEY_F):
