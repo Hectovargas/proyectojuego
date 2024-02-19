@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=3 uid="uid://wx775h6gysli"]
+[gd_scene load_steps=33 format=3 uid="uid://wx775h6gysli"]
 
 [ext_resource type="Script" path="res://link.gd" id="1_h4jya"]
 [ext_resource type="Texture2D" uid="uid://bcax86bfiwoo4" path="res://Sprites/Link1.png" id="1_r1xf4"]
@@ -105,14 +105,6 @@ region = Rect2(88, 120, 22, 30)
 [sub_resource type="AtlasTexture" id="AtlasTexture_e0ttn"]
 atlas = ExtResource("4_lh425")
 region = Rect2(120, 120, 24, 30)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_43j8h"]
-atlas = ExtResource("4_lh425")
-region = Rect2(299, 222, 23, 37)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_s2fhu"]
-atlas = ExtResource("4_lh425")
-region = Rect2(92, 84, 23, 37)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_o2v6d"]
 animations = [{
@@ -235,25 +227,6 @@ animations = [{
 "loop": true,
 "name": &"WalkUp",
 "speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_43j8h")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_s2fhu")
-}],
-"loop": true,
-"name": &"pesca",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_s2fhu")
-}],
-"loop": true,
-"name": &"standpesca",
-"speed": 5.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7hppb"]
@@ -269,7 +242,7 @@ script = ExtResource("1_h4jya")
 z_index = 1
 y_sort_enabled = true
 sprite_frames = SubResource("SpriteFrames_o2v6d")
-animation = &"standpesca"
+animation = &"CAIDA"
 autoplay = "WalkDown"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
