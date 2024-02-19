@@ -11,12 +11,12 @@ var dialogoCorazon
 var InstruccionesLaberintos
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	InstruccionesLaberintos = DialogueManager.show_dialogue_balloon(load("res://instrucciones laberinto.dialogue"), "start")
 	dialogoFallo = DialogueManager.show_dialogue_balloon(load("res://FALLASTE.dialogue"), "start")
 	pregunta_2 = DialogueManager.show_dialogue_balloon(load("res://pregunta 1 laberinto.dialogue"), "start2")
 	pregunta_1 =  DialogueManager.show_dialogue_balloon(load("res://pregunta 1 laberinto.dialogue"), "start")
 	dialogoCorrecto = DialogueManager.show_dialogue_balloon(load("res://correcto.dialogue"), "start")
 	pregunta_5 = DialogueManager.show_dialogue_balloon(load("res://pregunta 5.dialogue"), "start")
-	InstruccionesLaberintos = DialogueManager.show_dialogue_balloon(load("res://instrucciones laberinto.dialogue"), "start")
 	pregunta_3 = DialogueManager.show_dialogue_balloon(load("res://pregunta 3.dialogue"), "start")
 	dialogoCorazon = DialogueManager.show_dialogue_balloon(load("res://corazonObtenido.dialogue"), "start")
 	pregunta_4 = DialogueManager.show_dialogue_balloon(load("res://pregunta 4.dialogue"), "start")
@@ -74,13 +74,23 @@ func _on_boton_de_preguntas_2_body_exited(body):
 
 func _on_area_2d_2_body_entered(body):
 	if body.is_in_group("Jugador"):
-		Global.vida = 0
+		Global.vida = Global.vida-1
+		if(Global.vida!=0):
+			Global.vida = Global.vida-1
+		if(Global.vida!=0):
+			Global.vida = Global.vida-1
+		if(Global.vida!=0):
+			Global.vida = Global.vida-1
+		if(Global.vida!=0):
+			Global.vida = Global.vida-1
+		if(Global.vida!=0):
+			Global.vida = Global.vida-1
 		$CanvasModulate.hide()
 		await get_tree().create_timer(0.25).timeout
-		Global.vida=vida
 		Global.caida=true
-		await get_tree().create_timer(2).timeout
+		await get_tree().create_timer(0.5).timeout
 		Global.caida=false
+		Global.vida=Global.maxvida
 		get_tree().change_scene_to_file("res://mazmorra con ruleta.tscn")
 
 func _on_boton_de_respuesta_1_body_entered(body):

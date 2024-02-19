@@ -1,11 +1,14 @@
-[gd_scene load_steps=7 format=3 uid="uid://c6lwajsspq1tb"]
+[gd_scene load_steps=8 format=3 uid="uid://mrq1wkeht6bo"]
 
 [ext_resource type="Script" path="res://main_shooter.gd" id="1_bynpl"]
 [ext_resource type="PackedScene" uid="uid://cif780fnx86pe" path="res://shooter_politica.tscn" id="1_l2ykv"]
 [ext_resource type="PackedScene" uid="uid://wx775h6gysli" path="res://link.tscn" id="2_dewkj"]
-[ext_resource type="PackedScene" uid="uid://co3taye775xyi" path="res://stalfos_spawn.tscn" id="3_vqeup"]
-[ext_resource type="PackedScene" uid="uid://dntnjah2tke8h" path="res://stalfos.tscn" id="4_0gy67"]
-[ext_resource type="PackedScene" uid="uid://ch63qsgr5uv3x" path="res://flecha.tscn" id="6_h4yo4"]
+[ext_resource type="PackedScene" path="res://stalfos_spawn.tscn" id="3_vqeup"]
+[ext_resource type="PackedScene" path="res://stalfos.tscn" id="4_0gy67"]
+[ext_resource type="PackedScene" uid="uid://t5pcc845em3o" path="res://arrow.tscn" id="6_iaymd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e5a7v"]
+size = Vector2(126, 100)
 
 [node name="MainShooter" type="Node"]
 script = ExtResource("1_bynpl")
@@ -37,5 +40,15 @@ scale = Vector2(3, 3)
 position = Vector2(762, 47)
 scale = Vector2(3, 3)
 
-[node name="Sprite2D" parent="." instance=ExtResource("6_h4yo4")]
-position = Vector2(293, 511)
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(1064, 570)
+shape = SubResource("RectangleShape2D_e5a7v")
+
+[node name="Arrow" parent="." instance=ExtResource("6_iaymd")]
+position = Vector2(613, 514)
+rotation = 4.71239
+scale = Vector2(5, 5)
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

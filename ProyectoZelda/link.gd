@@ -3,7 +3,9 @@ var Speed = 140
 var LastDirection = Vector2.ZERO
 var AnimatedSprite
 var vivo=true
+var currentvida
 func _ready():
+	currentvida = Global.vida
 	AnimatedSprite = $AnimatedSprite2D
 	add_to_group("Jugador")
 
@@ -16,6 +18,13 @@ func _process(delta):
 		$RichTextLabel.show()
 		await get_tree().create_timer(3).timeout
 		$RichTextLabel.hide()
+		
+	if currentvida != Global.vida:
+		currentvida=Global.vida
+		$RichTextLabel.show()
+		await get_tree().create_timer(3).timeout
+		$RichTextLabel.hide()
+		
 	match Global.vida:
 		0:
 			$RichTextLabel.hide()
@@ -81,6 +90,10 @@ func _process(delta):
 		$AnimatedSprite2D.stop()
 		$AnimatedSprite2D.play("CAIDA")
 		velocity=Vector2(0,30)
+	elif Global.pescar:
+		$AnimatedSprite2D.stop()
+		$AnimatedSprite2D.play("pesca")
+		$AnimatedSprite2D.play("standpesca")
 	else:
 		if Global.vida < 1:
 			vivo = false

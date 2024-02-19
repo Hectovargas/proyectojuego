@@ -72,13 +72,7 @@ ui_down={
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://Dialogo_Doncella.dialogue", "res://instrucciones laberinto.dialogue", "res://pregunta 1 laberinto.dialogue", "res://resp preg 1.dialogue", "res://resp 2.dialogue", "res://resp 3.dialogue", "res://resp 4.dialogue", "res://DDGFDGDDFG.dialogue", "res://correcto.dialogue", "res://FALLASTE.dialogue", "res://corazonObtenido.dialogue", "res://pregunta 3.dialogue", "res://pregunta 4.dialogue", "res://pregunta 5.dialogue")
-
-[layer_names]
-
-2d_physics/layer_1="answers"
-2d_physics/layer_2="bullets"
-2d_physics/layer_3="enemies"
+locale/translations_pot_files=PackedStringArray("res://Dialogo_Doncella.dialogue", "res://instrucciones laberinto.dialogue", "res://pregunta 1 laberinto.dialogue", "res://resp preg 1.dialogue", "res://resp 2.dialogue", "res://resp 3.dialogue", "res://resp 4.dialogue", "res://DDGFDGDDFG.dialogue", "res://correcto.dialogue", "res://FALLASTE.dialogue", "res://corazonObtenido.dialogue", "res://pregunta 3.dialogue", "res://pregunta 4.dialogue", "res://pregunta 5.dialogue", "res://artMinigame/Dialogues_Art_MiniGame/questions/question1.dialogue", "res://artMinigame/Dialogues_Art_MiniGame/questions/question2.dialogue", "res://artMinigame/Dialogues_Art_MiniGame/questions/question3.dialogue", "res://artMinigame/Dialogues_Art_MiniGame/questions/question4.dialogue", "res://artMinigame/Dialogues_Art_MiniGame/questions/question5.dialogue", "res://instrucciones ciencia.dialogue")
 
 [rendering]
 

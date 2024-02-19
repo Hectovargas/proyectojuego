@@ -1,13 +1,13 @@
-[gd_scene load_steps=33 format=3 uid="uid://wx775h6gysli"]
+[gd_scene load_steps=35 format=3 uid="uid://wx775h6gysli"]
 
 [ext_resource type="Script" path="res://link.gd" id="1_h4jya"]
 [ext_resource type="Texture2D" uid="uid://bcax86bfiwoo4" path="res://Sprites/Link1.png" id="1_r1xf4"]
-[ext_resource type="Texture2D" uid="uid://dti2wldnuhc5j" path="res://Sprites/Link_Misc.png" id="2_n1j75"]
+[ext_resource type="Texture2D" uid="uid://dti2wldnuhc5j" path="res://Sprites/Link_Misc.png" id="4_lh425"]
 [ext_resource type="Texture2D" uid="uid://dyak0qhdkywha" path="res://RECURSO DE VIDEO E IMAGENES/Hearts/PNG/basic/border.png" id="5_us2vr"]
 [ext_resource type="Texture2D" uid="uid://iej57ptmx0dl" path="res://RECURSO DE VIDEO E IMAGENES/Hearts/PNG/basic/heart.png" id="6_67npl"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3reu1"]
-atlas = ExtResource("2_n1j75")
+atlas = ExtResource("4_lh425")
 region = Rect2(120, 210, 24, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vxxcx"]
@@ -23,27 +23,27 @@ atlas = ExtResource("1_r1xf4")
 region = Rect2(58, 0, 29, 26)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_apedt"]
-atlas = ExtResource("2_n1j75")
+atlas = ExtResource("4_lh425")
 region = Rect2(87, 210, 29, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3f64s"]
-atlas = ExtResource("2_n1j75")
+atlas = ExtResource("4_lh425")
 region = Rect2(29, 270, 29, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3i8lf"]
-atlas = ExtResource("2_n1j75")
+atlas = ExtResource("4_lh425")
 region = Rect2(87, 270, 29, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ywaip"]
-atlas = ExtResource("2_n1j75")
+atlas = ExtResource("4_lh425")
 region = Rect2(58, 0, 29, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g1rav"]
-atlas = ExtResource("2_n1j75")
+atlas = ExtResource("4_lh425")
 region = Rect2(0, 0, 29, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vvobb"]
-atlas = ExtResource("2_n1j75")
+atlas = ExtResource("4_lh425")
 region = Rect2(87, 210, 29, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8v1lo"]
@@ -87,24 +87,32 @@ atlas = ExtResource("1_r1xf4")
 region = Rect2(361, 30, 21, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pf87s"]
-atlas = ExtResource("2_n1j75")
+atlas = ExtResource("4_lh425")
 region = Rect2(0, 120, 22, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_goyuv"]
-atlas = ExtResource("2_n1j75")
+atlas = ExtResource("4_lh425")
 region = Rect2(26, 120, 26, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3avpm"]
-atlas = ExtResource("2_n1j75")
+atlas = ExtResource("4_lh425")
 region = Rect2(60, 120, 20, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tkxkb"]
-atlas = ExtResource("2_n1j75")
+atlas = ExtResource("4_lh425")
 region = Rect2(88, 120, 22, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e0ttn"]
-atlas = ExtResource("2_n1j75")
+atlas = ExtResource("4_lh425")
 region = Rect2(120, 120, 24, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_43j8h"]
+atlas = ExtResource("4_lh425")
+region = Rect2(299, 222, 23, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s2fhu"]
+atlas = ExtResource("4_lh425")
+region = Rect2(92, 84, 23, 37)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_o2v6d"]
 animations = [{
@@ -227,6 +235,25 @@ animations = [{
 "loop": true,
 "name": &"WalkUp",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_43j8h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s2fhu")
+}],
+"loop": true,
+"name": &"pesca",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s2fhu")
+}],
+"loop": true,
+"name": &"standpesca",
+"speed": 5.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7hppb"]
@@ -242,7 +269,7 @@ script = ExtResource("1_h4jya")
 z_index = 1
 y_sort_enabled = true
 sprite_frames = SubResource("SpriteFrames_o2v6d")
-animation = &"CAIDA"
+animation = &"standpesca"
 autoplay = "WalkDown"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

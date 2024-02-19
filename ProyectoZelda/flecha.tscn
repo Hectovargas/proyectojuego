@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://ch63qsgr5uv3x"]
+[gd_scene load_steps=4 format=3 uid="uid://bggj5834k7h2i"]
 
 [ext_resource type="Texture2D" uid="uid://dgaden6g3gxyl" path="res://Sprites/grayArrow.png" id="1_bf0s8"]
+[ext_resource type="Script" path="res://flecha.gd" id="2_y366t"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_th5bq"]
 size = Vector2(399.992, 29.5993)
@@ -10,6 +11,7 @@ position = Vector2(-2.38419e-07, 1)
 rotation = 3.1352
 scale = Vector2(0.04, 0.03)
 texture = ExtResource("1_bf0s8")
+script = ExtResource("2_y366t")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(57.0266, -309.136)

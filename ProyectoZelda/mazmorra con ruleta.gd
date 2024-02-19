@@ -11,21 +11,21 @@ var probabilidades_Arte = 2000
 
 func _ready():
 	if Global.politica==true:
-		probabilidades_Arte*2
-		probabilidades_Ciencia*2
-		probabilidades_Historia*2
+		probabilidades_Arte*3
+		probabilidades_Ciencia*3
+		probabilidades_Historia*3
 	if Global.historia==true:
-		probabilidades_Arte*2
-		probabilidades_Ciencia*2
-		probabilidades_politica*2
+		probabilidades_Arte*3
+		probabilidades_Ciencia*3
+		probabilidades_politica*3
 	if Global.ciencia==true:
-		probabilidades_Arte*2
-		probabilidades_politica*2
-		probabilidades_Historia*2
+		probabilidades_Arte*3
+		probabilidades_politica*3
+		probabilidades_Historia*3
 	if Global.arte==true:
-		probabilidades_politica*2
-		probabilidades_Ciencia*2
-		probabilidades_Historia*2
+		probabilidades_politica*3
+		probabilidades_Ciencia*3
+		probabilidades_Historia*3
 	
 func _process(delta):
 	if(Global.arte == false || Global.historia == false || Global.ciencia == false || Global.politica == false):
@@ -41,6 +41,7 @@ func _process(delta):
 					$TileMap/Jugador/NinePatchRect.hide()
 			i+=1
 		else:
+			await get_tree().create_timer(3).timeout
 			$TileMap/Jugador/NinePatchRect.hide()
 		var numeroaleatorio
 		if $TileMap/Jugador.position.x >= 450 && $TileMap/Jugador.position.x <= 550 && $TileMap/Jugador.position.y <= 450 && $TileMap/Jugador.position.y >= 350:
@@ -115,11 +116,13 @@ func _on_area_2d_body_entered(body):
 
 func _on_area_2d_2_body_entered(body):
 	if body.is_in_group("Jugador"):
+		get_tree().change_scene_to_file("res://arte_minigame.tscn")
 		Global.ruleteado = false;
 
 
 func _on_area_2d_4_body_entered(body):
 	if body.is_in_group("Jugador"):
+		get_tree().change_scene_to_file("res://main_shooter.tscn")
 		Global.ruleteado = false;
 
 
