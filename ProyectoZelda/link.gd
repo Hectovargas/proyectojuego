@@ -4,6 +4,7 @@ var LastDirection = Vector2.ZERO
 var AnimatedSprite
 var vivo=true
 var currentvida
+var arrow = preload("res://arrow.tscn")
 func _ready():
 	currentvida = Global.vida
 	AnimatedSprite = $AnimatedSprite2D
@@ -124,9 +125,22 @@ func _process(delta):
 				elif LastDirection.y >0:
 					AnimatedSprite.play("Idle_Down")
 			AnimatedSprite.flip_h = LastDirection.x >0
-			
 
-
+func _shoot():
+	if(Global.shoot):
+		$Disp.play()
+		var ArrowInstance = arrow.instantiate()
+		add_sibling(ArrowInstance)
+		ArrowInstance.position = position
+		ArrowInstance.location = LastDirection.angle()
 
 func _on_boton_de_preguntas_body_entered(body):
 	pass # Replace with function body.
+
+
+func _on_animated_sprite_2d_animation_finished():
+	if AnimatedSprite2D.animation=="MUERTO":
+		get_tree().change_scene_to_file("res://gameover_shooter.tscn")
+	if AnimatedSprite2D.animation=="WalkUp":
+		Global.shoot=true
+		_shoot()

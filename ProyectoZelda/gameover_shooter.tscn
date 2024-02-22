@@ -1,0 +1,55 @@
+[gd_scene load_steps=7 format=3 uid="uid://5jnp4l5v2mrl"]
+
+[ext_resource type="Texture2D" uid="uid://bw1wj0a0g7bov" path="res://Sprites/Stalfos.png" id="1_i5e1e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rnxio"]
+atlas = ExtResource("1_i5e1e")
+region = Rect2(23, 324, 23, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mftte"]
+atlas = ExtResource("1_i5e1e")
+region = Rect2(46, 324, 23, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gkeaf"]
+atlas = ExtResource("1_i5e1e")
+region = Rect2(69, 324, 23, 18)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jch2e"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rnxio")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mftte")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gkeaf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rnxio")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mftte")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gkeaf")
+}],
+"loop": false,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2cywg"]
+radius = 7.07107
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_jch2e")
+frame = 5
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -2)
+shape = SubResource("CircleShape2D_2cywg")

@@ -1,11 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://c6lwajsspq1tb"]
+[gd_scene load_steps=6 format=3 uid="uid://c6lwajsspq1tb"]
 
 [ext_resource type="Script" path="res://main_shooter.gd" id="1_bynpl"]
 [ext_resource type="PackedScene" uid="uid://cif780fnx86pe" path="res://shooter_politica.tscn" id="1_l2ykv"]
 [ext_resource type="PackedScene" uid="uid://wx775h6gysli" path="res://link.tscn" id="2_dewkj"]
-[ext_resource type="PackedScene" uid="uid://co3taye775xyi" path="res://stalfos_spawn.tscn" id="3_vqeup"]
 [ext_resource type="PackedScene" uid="uid://dntnjah2tke8h" path="res://stalfos.tscn" id="4_0gy67"]
-[ext_resource type="PackedScene" uid="uid://crmdlvjyhq3a" path="res://arrow.tscn" id="6_iaymd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_e5a7v"]
 size = Vector2(126, 100)
@@ -18,8 +16,6 @@ script = ExtResource("1_bynpl")
 [node name="Jugador" parent="." instance=ExtResource("2_dewkj")]
 position = Vector2(67, 506)
 scale = Vector2(3, 3)
-
-[node name="StalfosSpawn" parent="." instance=ExtResource("3_vqeup")]
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(573, 323)
@@ -45,25 +41,5 @@ scale = Vector2(3, 3)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2(1064, 570)
 shape = SubResource("RectangleShape2D_e5a7v")
-
-[node name="ArrowA" parent="." instance=ExtResource("6_iaymd")]
-position = Vector2(292, 521)
-rotation = -1.5708
-scale = Vector2(5, 5)
-
-[node name="ArrowB" parent="." instance=ExtResource("6_iaymd")]
-position = Vector2(450, 521)
-rotation = -1.5708
-scale = Vector2(5, 5)
-
-[node name="ArrowC" parent="." instance=ExtResource("6_iaymd")]
-position = Vector2(613, 522)
-rotation = 4.71239
-scale = Vector2(5, 5)
-
-[node name="ArrowD" parent="." instance=ExtResource("6_iaymd")]
-position = Vector2(756, 520)
-rotation = 4.71239
-scale = Vector2(5, 5)
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

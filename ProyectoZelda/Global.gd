@@ -15,3 +15,4 @@ var disparo2 = false
 var disparo3 = false
 var disparo4 = false
 var pescar = false
+var shoot = false
