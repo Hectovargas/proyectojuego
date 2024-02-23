@@ -4,7 +4,7 @@ var LastDirection = Vector2.ZERO
 var AnimatedSprite
 var vivo=true
 var currentvida
-var arrow = preload("res://arrow.tscn")
+const arrowPath = preload("res://arrow.tscn")
 func _ready():
 	currentvida = Global.vida
 	AnimatedSprite = $AnimatedSprite2D
@@ -15,6 +15,8 @@ func _physics_process(delta):
 	
 
 func _process(delta):
+	if Input.is_action_just_pressed("shoot_arrow"):
+		_shoot()
 	if Input.is_key_pressed(KEY_F):
 		$RichTextLabel.show()
 		await get_tree().create_timer(3).timeout
@@ -127,12 +129,11 @@ func _process(delta):
 			AnimatedSprite.flip_h = LastDirection.x >0
 
 func _shoot():
-	if(Global.shoot):
-		$Disp.play()
-		var ArrowInstance = arrow.instantiate()
-		add_sibling(ArrowInstance)
-		ArrowInstance.position = position
-		ArrowInstance.location = LastDirection.angle()
+	var arrow = arrowPath.instantiate()
+	add_sibling(arrow)
+	arrow.position = $AnimatedSprite2D.position
+	arrow.rotation = LastDirection.angle()
+	print("Im Shooting")
 
 func _on_boton_de_preguntas_body_entered(body):
 	pass # Replace with function body.

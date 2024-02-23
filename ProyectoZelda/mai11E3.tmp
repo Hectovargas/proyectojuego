@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://c6lwajsspq1tb"]
+[gd_scene load_steps=7 format=3 uid="uid://c6lwajsspq1tb"]
 
 [ext_resource type="Script" path="res://main_shooter.gd" id="1_bynpl"]
 [ext_resource type="PackedScene" uid="uid://cif780fnx86pe" path="res://shooter_politica.tscn" id="1_l2ykv"]
@@ -10,17 +10,6 @@ size = Vector2(126, 100)
 
 [sub_resource type="LabelSettings" id="LabelSettings_fus04"]
 font_size = 32
-
-[sub_resource type="LabelSettings" id="LabelSettings_6bpw2"]
-font_size = 11
-outline_size = 2
-outline_color = Color(0, 0, 0, 1)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_wltdn"]
-size = Vector2(198, 97)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_tqfdh"]
-size = Vector2(41, 43)
 
 [node name="MainShooter" type="Node"]
 script = ExtResource("1_bynpl")
@@ -92,29 +81,4 @@ text = "D
 "
 label_settings = SubResource("LabelSettings_fus04")
 
-[node name="SiguientePregunta" type="Label" parent="."]
-offset_left = 904.0
-offset_top = 372.0
-offset_right = 963.0
-offset_bottom = 407.0
-scale = Vector2(3.24, 2.92)
-text = "SIGUIENTE
-PREGUNTA"
-label_settings = SubResource("LabelSettings_6bpw2")
-
-[node name="Area2D2" type="Area2D" parent="."]
-position = Vector2(898, 373)
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
-position = Vector2(100, 49.5)
-shape = SubResource("RectangleShape2D_wltdn")
-
-[node name="Pregunta1" type="Area2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Pregunta1"]
-position = Vector2(176, 421)
-shape = SubResource("RectangleShape2D_tqfdh")
-
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
-[connection signal="body_entered" from="Area2D2" to="." method="_on_area_2d_2_body_entered"]
-[connection signal="body_entered" from="Pregunta1" to="." method="_on_pregunta_1_body_entered"]

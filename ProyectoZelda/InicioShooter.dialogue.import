@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://bftleeswg4jmc"
+path="res://.godot/imported/InicioShooter.dialogue-ba3d3df56f242c0473f7dbcee0b97d27.tres"
+
+[deps]
+
+source_file="res://InicioShooter.dialogue"
+dest_files=["res://.godot/imported/InicioShooter.dialogue-ba3d3df56f242c0473f7dbcee0b97d27.tres"]
+
+[params]
+
+defaults=true

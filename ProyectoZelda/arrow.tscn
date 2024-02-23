@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://bhxnx5s02tf3m" path="res://Sprites/Items.png" id="2_sxxq2"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nva3j"]
-size = Vector2(17, 8)
+size = Vector2(16.9993, 3.99984)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_oavhy"]
 atlas = ExtResource("2_sxxq2")
@@ -22,18 +22,20 @@ animations = [{
 }]
 
 [node name="Arrow" type="Area2D"]
+rotation = -1.57961
 script = ExtResource("1_815e1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 light_mask = 3
 visibility_layer = 3
-position = Vector2(2.5, 0)
+position = Vector2(2.99988, 0.0264435)
+scale = Vector2(3, 3)
 shape = SubResource("RectangleShape2D_nva3j")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(2, 0)
 rotation = 4.71239
-scale = Vector2(0.7, 1)
+scale = Vector2(3, 3.334)
 sprite_frames = SubResource("SpriteFrames_7pds2")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
